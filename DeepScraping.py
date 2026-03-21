@@ -52,7 +52,7 @@ def minerar_vincular_dados():
         
         res = requests.get(f"{base_url}/stats", headers=headers, timeout=10)
         soup = BeautifulSoup(res.text, 'html.parser')
-        links = list(set([a['href'] for a in soup.find_all('a', href=True) if '/num/' in a['href']]))[:15]
+        links = list(set([a['href'] for a in soup.find_all('a', href=True) if '/num/' in a['href']]))[:50] # quantidade d numeros q sao pegos
 
         novos_relatos = []
 
