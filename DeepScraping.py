@@ -99,7 +99,7 @@ def minerar_vincular_dados():
                     texto_original = comment.get_text(strip=True)
                     if len(texto_original) > 30:
                         txt = lapidar_texto_ia(texto_original)
-                        if len(txt) > 15:
+                        if len(txt) > 50:
                             gatilhos_encontrados = contar_gatilhos(txt)
                             label = 1 if (score_site >= 6 or gatilhos_encontrados > 0) else 0
                             
