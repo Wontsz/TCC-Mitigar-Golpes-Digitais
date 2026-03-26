@@ -1,47 +1,27 @@
 import pandas as pd
-import re
-import os
 
-# Caminho do seu arquivo
-ARQUIVO_MESTRE = r"C:\Users\mateu\Documents\Faculdade\TCC\dataset_vincular_numero_relato.csv"
-GATILHOS = [
-    'golpe', 'pix', 'falso', '0800', 'bloqueio', 'clonar', 'urgente', 
-    'banco', 'penhora', 'prisão', 'suspensão', 'pendência', 'fatura', 
-    'facção', 'ameaça', 'polícia', 'detran', 'alfândega', 'correios', 
-    'taxa', 'verificar', 'confirmar compra', 'indevida', 'cartao', 'dados',
-    'spam', 'urgência', 'apreensão', 'carteira', 'advogado', 'justiça'
-]
+# Caminho do seu arquivo (ajuste se necessário)
+ARQUIVO_MESTRE = r"C:\Users\mateu\Documents\GitHub\TCC-Mitigar-Golpes-Digitais\dataset_vincular_numero_relato.csv"
 
-def limpar_profundo(texto):
-    texto = str(texto)
-    # Remove restos de tags e caracteres aleatórios
-    texto = re.sub(r'[@#\$%\^&\*\(\)\[\]\{\}]', '', texto)
-    texto = re.sub(r'\s+', ' ', texto).strip()
-    return texto
-
-def recalcular_gatilhos(texto):
-    texto_low = str(texto).lower()
-    return sum(1 for g in GATILHOS if g in texto_low)
-
-if os.path.exists(ARQUIVO_MESTRE):
+def remover_textos_repetidos():
+    print("Carregando o dataset...")
     df = pd.read_csv(ARQUIVO_MESTRE)
     
-    # 1. Limpeza de texto
-    df['texto_relato'] = df['texto_relato'].apply(limpar_profundo)
+    total_antes = len(df)
+    print(f"Total de relatos antes da limpeza: {total_antes}")
     
-    # 2. Recalcula gatilhos para preencher os que estavam vazios
-    df['qtd_gatilhos'] = df['texto_relato'].apply(recalcular_gatilhos)
+    # O segredo: Apaga as linhas onde o 'texto_relato' for exatamente igual a outro que já passou
+    # O 'keep="first"' garante que ele salva o primeiro que encontrar e joga o resto fora.
+    df_limpo = df.drop_duplicates(subset=['texto_relato'], keep='first')
     
-    # 3. Corrige o Label (Se tem gatilho ou score alto, é 1)
-    df['label_ia'] = df.apply(lambda row: 1 if (row['score_site'] >= 6 or row['qtd_gatilhos'] > 0) else 0, axis=1)
+    total_depois = len(df_limpo)
+    removidos = total_antes - total_depois
     
-    # 4. Remove linhas inúteis (muito curtas ou sem letras)
-    df = df[df['texto_relato'].str.len() > 15]
+    print(f"🧹 Limpeza concluída! Foram removidos {removidos} relatos genéricos/repetidos.")
+    print(f"✅ Novo total de relatos únicos de verdade: {total_depois}")
     
-    # 5. Remove duplicatas
-    df = df.drop_duplicates(subset=['numero', 'texto_relato'])
-    
-    df.to_csv(ARQUIVO_MESTRE, index=False, encoding='utf-8-sig')
-    print(f"Faxina concluída! {len(df)} linhas prontas para o Google Colab.")
-else:
-    print("Arquivo não encontrado para faxina.")
+    # Salva por cima do arquivo original
+    df_limpo.to_csv(ARQUIVO_MESTRE, index=False, encoding='utf-8-sig')
+
+if __name__ == "__main__":
+    remover_textos_repetidos()
