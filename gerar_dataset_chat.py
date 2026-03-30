@@ -4,7 +4,7 @@ import time
 import os
 
 # CONFIG API
-CHAVE_API = "CHAVE API" 
+CHAVE_API = "AIzaSyASjiH_kC0bsG7uUS1d7V1qmhMJgxgkDHQ" 
 client = genai.Client(api_key=CHAVE_API)
 MODELO_ESCOLHIDO = 'gemini-2.5-flash' 
 
