@@ -4,7 +4,7 @@ import time
 import os
 
 # CONFIG API
-CHAVE_API = "COLE_SUA_CHAVE_AQUI" 
+CHAVE_API = "AIzaSyCRZdJ3Fw9b_Y4WPJZF9zv2NdaD8aH1ACs" 
 client = genai.Client(api_key=CHAVE_API)
 MODELO_ESCOLHIDO = 'gemini-2.5-flash'
 
@@ -15,14 +15,21 @@ ARQUIVO_SINTETICO = os.path.join(DIRETORIO_TCC, 'dataset_mensagens_chat.csv')
 
 def sintetizar_mensagem_rapida(relato, label):
     prompt = f"""
-    Você é um especialista em cibersegurança. 
-    TRANSFORME o relato abaixo em uma MENSAGEM CURTA de SMS ou Alerta de WhatsApp.
+    Você é um especialista em cibersegurança e engenharia social. 
+    TRANSFORME o relato abaixo em uma MENSAGEM CURTA de SMS ou WhatsApp.
 
     Regras CRÍTICAS:
     1. IGNORE TOTALMENTE rótulos de classificação no início do relato (ex: "de golpe", "Tentativa de golpe", "spam"). Leia apenas a historinha.
-    2. NUNCA inclua palavras como "spam", "golpe" ou "denúncia" no texto gerado. Aja como o emissor da mensagem.
-    3. Se Label = 1 (Golpe): Crie um texto direto de Smishing (bloqueio de conta, compra suspeita). Use links ou 0800.
-    4. Se Label = 0 (Seguro): Crie um SMS de telemarketing padrão ou informativo de operadora, sem ameaças.
+    2. NUNCA inclua palavras como "spam", "golpe" ou "denúncia" no texto gerado. Aja como o criminoso ou a empresa.
+    3. Se Label = 1 (Golpe): DIVERSIFIQUE AO MÁXIMO! Baseie-se no relato, mas varie os estilos de ataque. Use formatos como:
+       - Falso Parente: "Oi mãe/pai, meu celular quebrou, salva meu número novo..."
+       - Falsa Entrega/Correios: "Sua encomenda foi retida na alfândega. Pague a taxa de R$ 27,90 em: [link]"
+       - Falso Emprego: "Você foi selecionado para trabalhar meio período ganhando R$ 500/dia. Acesse: [link]"
+       - Milhas/Pontos: "Seus 15.000 pontos Livelo vencem HOJE. Resgate por Pix em: [link]"
+       - Bancário clássico: Falsa compra, falso Pix agendado ou bloqueio de conta.
+       - Crédito falso: "R$XXX creditados, jogue ou saque, acesse [link]."
+       - Sites de apostas: "Voce recebeu 50 rodadas no [nome do jogo]! Credito de R$XXX ja adicionados [link]."
+    4. Se Label = 0 (Seguro): Crie um SMS de telemarketing padrão, cobrança legítima educada ou informativo de operadora, sem ameaças.
     5. Responda APENAS com o texto final da mensagem nua e crua.
 
     Label: {label}
