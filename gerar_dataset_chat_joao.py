@@ -16,13 +16,22 @@ ARQUIVO_SINTETICO = os.path.join(DIRETORIO_TCC, 'dataset_mensagens_chat.csv')
 
 def sintetizar_mensagem_rapida(relato, label):
     prompt = f"""
-    Você é um especialista em cibersegurança. 
-    TRANSFORME o relato abaixo em uma MENSAGEM CURTA de SMS ou Alerta de WhatsApp.
+    Você é um especialista em cibersegurança e engenharia social. 
+    TRANSFORME o relato abaixo em uma MENSAGEM CURTA de SMS ou WhatsApp.
 
-    Regras:
-    1. Se Label = 1 (Golpe): Crie um texto de impacto direto (Smishing). Use ganchos de: bloqueio de conta, compra suspeita, processo judicial ou promoção falsa. Inclua links encurtados ou números 0800.
-    2. Se Label = 0 (Seguro): Crie um SMS de telemarketing padrão ou informativo de operadora, sem tom de urgência ou ameaça.
-    3. Responda APENAS com o texto final da mensagem.
+    Regras CRÍTICAS:
+    1. IGNORE TOTALMENTE rótulos de classificação no início do relato (ex: "de golpe", "Tentativa de golpe", "spam"). Leia apenas a historinha.
+    2. NUNCA inclua palavras como "spam", "golpe" ou "denúncia" no texto gerado. Aja como o criminoso ou a empresa.
+    3. Se Label = 1 (Golpe): DIVERSIFIQUE AO MÁXIMO! Baseie-se no relato, mas varie os estilos de ataque. Use formatos como:
+       - Falso Parente: "Oi mãe/pai, troquei de numero, preciso de dinheiro!"
+       - Falsa Entrega/Correios: "Sua encomenda foi retida na alfândega. Pague a taxa de R$ 27,90 em: [link]"
+       - Falso Emprego: "Você foi selecionado para trabalhar meio período ganhando R$ 500/dia. Acesse: [link]"
+       - Milhas/Pontos: "Seus 15.000 pontos Livelo vencem HOJE. Resgate por Pix em: [link]"
+       - Bancário clássico: Falsa compra, falso Pix agendado ou bloqueio de conta.
+       - Crédito falso: "R$XXX creditados, jogue ou saque, acesse [link]."
+       - Sites de apostas: "Voce recebeu 50 rodadas no [nome do jogo]! Credito de R$XXX ja adicionados [link]."
+    4. Se Label = 0 (Seguro): Crie um SMS de telemarketing padrão, cobrança legítima educada ou informativo de operadora, sem ameaças.
+    5. Responda APENAS com o texto final da mensagem nua e crua.
 
     Label: {label}
     Relato: "{relato}"
@@ -47,48 +56,55 @@ def processar_lote_15():
     print("Verificando progresso do dataset...")
     df_orig = pd.read_csv(ARQUIVO_ORIGINAL)
     
-    # Limpeza de duplicatas no arquivo de origem
+    # Limpeza padrão
     df_orig = df_orig.drop_duplicates(subset=['texto_relato']).dropna(subset=['texto_relato'])
+    df_orig = df_orig[df_orig['texto_relato'].str.len() > 15].reset_index(drop=True)
     
-    # Lógica de Memória: Verifica o que já está no arquivo de saída
-    relatos_processados = []
+    # --- MEMÓRIA NATIVA DO PYTHON (LENDO AS LINHAS DO ARQUIVO) ---
+    linhas_feitas = 0
+    precisa_cabecalho = True
+    
     if os.path.exists(ARQUIVO_SINTETICO):
-        df_saida = pd.read_csv(ARQUIVO_SINTETICO)
-        if 'texto_relato' in df_saida.columns:
-            relatos_processados = df_saida['texto_relato'].tolist()
-            print(f"{len(relatos_processados)} itens já foram concluídos anteriormente.")
+        with open(ARQUIVO_SINTETICO, 'r', encoding='utf-8-sig') as f:
+            linhas = f.readlines()
+            if len(linhas) > 0:
+                precisa_cabecalho = False
+                linhas_feitas = max(0, len(linhas) - 1) # Subtrai o cabeçalho
+        print(f"Memória: O arquivo já possui {linhas_feitas} mensagens processadas.")
 
-    # Filtra apenas o que ainda não foi traduzido
-    df_pendente = df_orig[~df_orig['texto_relato'].isin(relatos_processados)].copy()
-    
-    if df_pendente.empty:
-        print("Todos os relatos do arquivo original já foram processados!")
+    if linhas_feitas >= len(df_orig):
+        print("Todos os relatos já foram processados!")
         return
 
-    # Seleciona os PRÓXIMOS 15 da fila
+    # Pula as linhas já feitas
+    df_pendente = df_orig.iloc[linhas_feitas:]
     lote_atual = df_pendente.head(15)
-    print(f"Iniciando processamento dos próximos {len(lote_atual)} itens...")
+    
+    print(f"Iniciando processamento de {len(lote_atual)} itens (Da linha {linhas_feitas + 1} em diante)...")
 
-    resultados = []
-    for _, row in lote_atual.iterrows():
-        print(f"Traduzindo: {row['texto_relato'][:50]}...")
-        txt_gerado = sintetizar_mensagem_rapida(row['texto_relato'], row['label_ia'])
-        
-        if txt_gerado:
-            resultados.append({
-                'numero': row['numero'],
-                'texto_relato': row['texto_relato'], # Essencial para o sistema de memória
-                'mensagem_chat_sintetica': txt_gerado,
-                'label_ia': row['label_ia']
-            })
-        time.sleep(4.5) # Respeitando o limite de 15 requisições por minuto
+    # Abre o arquivo UMA VEZ e vai injetando o texto cru, garantindo a formatação
+    with open(ARQUIVO_SINTETICO, 'a', encoding='utf-8-sig') as arquivo_saida:
+        if precisa_cabecalho:
+            arquivo_saida.write("numero,mensagem_chat_sintetica,label_ia\n")
+            
+        for _, row in lote_atual.iterrows():
+            print(f"Traduzindo: {row['texto_relato'][:50]}...")
+            txt_gerado = sintetizar_mensagem_rapida(row['texto_relato'], row['label_ia'])
+            
+            if txt_gerado:
+                # Remove aspas duplas de dentro do texto e quebras de linha para não quebrar o CSV
+                txt_gerado = txt_gerado.replace('"', "'").replace('\n', ' ')
+                
+                # A MÁGICA AQUI: O texto é forçado a ter aspas, os números não.
+                linha_formatada = f'{row["numero"]},"{txt_gerado}",{row["label_ia"]}\n'
+                
+                arquivo_saida.write(linha_formatada)
+                arquivo_saida.flush() # Salva fisicamente no HD na mesma hora
+                print("Salvo no CSV!")
+                
+            time.sleep(4.5)
 
-    # Salva no modo 'append' (adiciona ao final do arquivo)
-    if resultados:
-        new_df = pd.DataFrame(resultados)
-        header_needed = not os.path.exists(ARQUIVO_SINTETICO)
-        new_df.to_csv(ARQUIVO_SINTETICO, mode='a', index=False, header=header_needed, encoding='utf-8-sig')
-        print(f"\nLote finalizado e salvo em: {ARQUIVO_SINTETICO}")
+    print(f"\nLote finalizado! Pode rodar de novo para pegar os próximos.")
 
 if __name__ == "__main__":
     processar_lote_15()
