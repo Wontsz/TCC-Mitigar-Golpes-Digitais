@@ -51,13 +51,13 @@ def sintetizar_mensagem_rapida(relato, label):
                 print(f"  [x] Erro: {e}")
                 return None
 
-def processar_lote_15():
+def processar_lote_20():
     print("Verificando progresso do dataset...")
     df_orig = pd.read_csv(ARQUIVO_ORIGINAL)
     
     # Limpeza padrão
     df_orig = df_orig.drop_duplicates(subset=['texto_relato']).dropna(subset=['texto_relato'])
-    df_orig = df_orig[df_orig['texto_relato'].str.len() > 15].reset_index(drop=True)
+    df_orig = df_orig[df_orig['texto_relato'].str.len() > 20].reset_index(drop=True)
     
     # --- MEMÓRIA NATIVA DO PYTHON (LENDO AS LINHAS DO ARQUIVO) ---
     linhas_feitas = 0
@@ -77,7 +77,7 @@ def processar_lote_15():
 
     # Pula as linhas já feitas
     df_pendente = df_orig.iloc[linhas_feitas:]
-    lote_atual = df_pendente.head(15)
+    lote_atual = df_pendente.head(20)
     
     print(f"Iniciando processamento de {len(lote_atual)} itens (Da linha {linhas_feitas + 1} em diante)...")
 
@@ -106,4 +106,4 @@ def processar_lote_15():
     print(f"\nLote finalizado! Pode rodar de novo para pegar os próximos.")
 
 if __name__ == "__main__":
-    processar_lote_15()
+    processar_lote_20()
