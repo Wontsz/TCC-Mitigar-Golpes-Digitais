@@ -23,7 +23,7 @@ def sintetizar_mensagem_rapida(relato, label):
     2. NUNCA inclua palavras como "spam", "golpe" ou "denúncia" no texto gerado. Aja como o criminoso ou a empresa.
     3. Se Label = 1 (Golpe): DIVERSIFIQUE AO MÁXIMO! Baseie-se no relato, mas varie os estilos de ataque. Use formatos como:
        - Falso Parente: "Oi mãe/pai, troquei de numero, preciso de dinheiro!"
-       - Falsa Entrega/Correios: "Sua encomenda foi retida na alfândega. Pague a taxa de R$ 27,90 em: [link]"
+       - Falsa Entrega/Correios: "Sua encomenda foi retida na alfândega. Pague a taxa de R$ XXX,XX em: [link]"
        - Falso Emprego: "Você foi selecionado para trabalhar meio período ganhando R$ 500/dia. Acesse: [link]"
        - Milhas/Pontos: "Seus 15.000 pontos Livelo vencem HOJE. Resgate por Pix em: [link]"
        - Bancário clássico: Falsa compra, falso Pix agendado ou bloqueio de conta.
