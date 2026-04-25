@@ -19,5 +19,5 @@ try:
     print(f"O modelo foi carregado e identificou {len(inputs['input_ids'][0])} tokens na frase.")
 
 except Exception as e:
-    print(f"\n ERRO: O BERTimbau não está pronto.")
+    print(f"\n ERRO")
     print(f"Detalhe do erro: {e}")

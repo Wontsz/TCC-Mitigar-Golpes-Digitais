@@ -1,0 +1,4 @@
+# Ignorar pastas de resultados e checkpoints de treino
+resultados_tcc/
+logs/
+modelo_smishing_final/
