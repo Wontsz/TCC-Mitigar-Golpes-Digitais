@@ -10,6 +10,7 @@ model = AutoModel.from_pretrained(MODEL_NAME)
 def gerar_embedding(texto):
     # Prepara o texto para o BERT
     inputs = tokenizer(texto, return_tensors="pt", padding=True, truncation=True, max_length=128)
+    # do_lower_case=False
     
     with torch.no_grad():
         outputs = model(**inputs)
@@ -17,7 +18,7 @@ def gerar_embedding(texto):
     return outputs.last_hidden_state[:, 0, :].numpy()
 
 try:
-    df = pd.read_csv('dataset_mensagens_chat.csv')
+    df = pd.read_csv('dataset_mensagens_chat.csv')                                     
     coluna_mensagem = 'text' # ou 'mensagem', 'content', etc.
     
     print(f"Processando {len(df)} mensagens com BERTimbau...")
@@ -31,3 +32,7 @@ try:
 
 except Exception as e:
     print(f"Erro ao carregar o projeto: {e}")
+
+    # parâmetros para o fine tuning: 
+    #num_train_epochs=5 
+    #learning_rate=2e-5
