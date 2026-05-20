@@ -59,7 +59,7 @@ def processar_lote_20():
     df_orig = df_orig.drop_duplicates(subset=['texto_relato']).dropna(subset=['texto_relato'])
     df_orig = df_orig[df_orig['texto_relato'].str.len() > 20].reset_index(drop=True)
     
-    # --- MEMÓRIA INTELIGENTE (IGNORANDO DADOS INJETADOS) ---
+    # --- MEMÓRIA INTELIGENTE BLINDADA (IGNORANDO DADOS INJETADOS) ---
     linhas_feitas = 0
     precisa_cabecalho = True
     
@@ -71,9 +71,14 @@ def processar_lote_20():
                 # Pula o cabeçalho e verifica linha por linha
                 for linha in linhas[1:]:
                     linha_limpa = linha.strip()
-                    # Só conta se a linha não for vazia e NÃO começar com '000,'
-                    if linha_limpa and not linha_limpa.startswith('000,'):
-                        linhas_feitas += 1
+                    if linha_limpa:
+                        # Isola a primeira coluna e remove aspas e espaços
+                        primeira_coluna = linha_limpa.split(',')[0].replace('"', '').strip()
+                        
+                        # Só conta se o número for diferente de 000
+                        if primeira_coluna != '000':
+                            linhas_feitas += 1
+                            
         print(f"Memória: {linhas_feitas} mensagens extraídas do Tellows processadas (ignorando as injetadas).")
 
     if linhas_feitas >= len(df_orig):
