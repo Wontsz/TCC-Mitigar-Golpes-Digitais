@@ -764,7 +764,8 @@
 000,"Vocês cobram pra ir medir o blindex do banheiro ou o orçamento no local é sem compromisso?",0
 000,"Tem capinha pra Motorola Edge 30? Se tiver eu passo aí depois do almoço pra pegar.",0
 000,"O Uber não tá achando seu endereço, pode me mandar a localização fixada pelo mapa?",0
-000,"Achei um RG no nome de Felipe Silva na porta do supermercado, me passaram esse número pra avisar.",010406000000,"Oi mãe/pai, meu chip deu problema e as chamadas estão sendo desviadas. Me manda um oi nesse novo WhatsApp, preciso de um Pix urgente!",1
+000,"Achei um RG no nome de Felipe Silva na porta do supermercado, me passaram esse número pra avisar.",0
+10406000000,"Oi mãe/pai, meu chip deu problema e as chamadas estão sendo desviadas. Me manda um oi nesse novo WhatsApp, preciso de um Pix urgente!",1
 10406000000,"Parabéns! Vc foi selecionado p/ vaga de meio periodo e salario de R$450/dia. Confirme sua candidatura e saiba mais em: bit.ly/vaga-urgente",1
 10406000000,"Alerta Itaú: Tentativa de login suspeita em sua conta. Para proteger seus dados e bloquear o acesso, ligue *21*08001234567# agora. Segurança Itaú.",1
 10406000000,"URGENTE: Seus 12.500 pontos Livelo expiram HOJE. Resgate seu PIX de R$250,00 antes que perca: [link]",1
@@ -878,3 +879,55 @@
 1121032290,"NET Claro: Seu plano de internet expirou! Para evitar interrupcao do servico e ativar sua nova oferta, acesse: bit.ly/netpromo32",1
 1121032290,"PARABÉNS! Você tem R$7.500 de crédito pré-aprovado. Para liberar, confirme seu CPF e dados em: [link]",1
 1121032290,"Seus 18.000 pontos Livelo vencem HOJE. Resgate por Pix ou transfira para parceiros em: https://bit.ly/resgateja",1
+551121760710,"Oferta exclusiva Claro! Assine agora banda larga de 700 MEGA com um desconto imperdivel. Responda SIM para falar com um consultor.",0
+551121760710,"Seu credito de R$ 5.000,00 foi pre-aprovado! Clique aqui e libere agora na sua conta: [link]",1
+551121760710,"Aviso: Sua fatura atual esta disponivel. Caso ja tenha efetuado o pagamento, por favor desconsidere esta mensagem.",0
+551121760710,"Ola Leandro, sua fatura NET/CLARO encontra-se em aberto. Para evitar a suspensao dos servicos, solicite a 2a via ou negocie com condicoes especiais.",0
+05190861383,"Aposentado/Pensionista: A Metalurgica RS liberou um bonus salarial extra na sua conta. Confirme seus dados pelo WhatsApp para receber seu saque imediato.",1
+08121220030,"ATENCAO: Voce possui um Pix agendado no valor de R$ 1.450,00. Caso nao reconheca, acesse nossa central para cancelamento imediato: [link]",1
+08001500124,"BANCO: Compra de R$ 2.450,00 aprovada nas Casas Bahia. Se nao foi voce, cancele agora no nosso canal de seguranca: [link]",1
+08007187881,"Ola! Somos correspondentes autorizados e temos uma excelente oportunidade de refinanciamento para voce, com toda transparencia. Gostaria de ouvir nossa proposta?",0
+08000400071,"AVISO JUDICIAL: Constatamos irregularidades em seu CPF e seus bens serao bloqueados as 16h. Regularize imediatamente sua situacao aqui: [link]",1
+08000400071,"URGENTE: CPF encaminhado para cartorio e solicitacao de suspensao da CNH em andamento. Retorne em ate 12h para evitar o bloqueio total acessando: [link]",1
+03130691100,"URGENTE: Tentativa de acesso a sua conta identificada. Para confirmar sua identidade via biometria por voz, ligue urgente para nossa central agora.",1
+03130691100,"Sua conta no Mercado Livre foi suspensa preventivamente! Para recuperar seu acesso e saldos, faca a verificacao de identidade em: [link]",1
+03130691100,"Prezado(a), consta em nosso sistema uma pendencia financeira em seu nome. Entre em contato conosco para verificarmos condicoes de parcelamento.",0
+062993179924,"Prezado cliente, aproveite as ofertas exclusivas que separamos para voce neste mes. Responda SIM para mais informacoes.",0
+062993179924,"Claro informa: Mude agora para o plano Controle com o dobro de internet e WhatsApp ilimitado. Responda essa mensagem para falar com um consultor.",0
+062993179924,"Oi, sou da Claro! Seu plano atual vai sofrer reajuste amanhã. Para manter o valor promocional, me confirme seu CPF e numero do cartao de credito.",1
+062993179924,"Informamos que nossa equipe tentou contato com voce hoje. Retornaremos em breve. Tenha um bom dia.",0
+062993179924,"Sr(a), confirmamos um titulo em aberto associado aos 3 primeiros digitos do seu CPF. Pague com 50% de desconto hoje via Pix acessando: [link]",1
+062993179924,"Promocao exclusiva Claro: Plano 4G de 30GB por apenas 31,90 mensais. Para ativar agora, preciso que envie uma foto frente e verso do seu documento.",1
+062993179924,"Oi sumido! Perdeu meu numero novo? Clica ai no link pra ver minhas fotos: [link]",1
+062993179924,"Prezado cliente, este e um aviso automatico de sistema. Agradecemos a preferencia.",0
+062993179924,"Bem-vindo a central de relacionamento Claro. Informamos que novas promocoes estao disponiveis no seu app Minha Claro.",0
+01153301256,"Ola, e voce na foto? Estao usando seu nome nesse perfil vazado aqui, de uma olhada rapida: [link]",1
+08000400059,"Aviso de Penhora: Titulo vencido de 2008 protocolado. De R$9.000 por R$6.000 para quitacao hoje, senao o Oficial de Justica ira a sua residencia. Acesse: [link]",1
+08000400059,"NOTIFICACAO EXTRAJUDICIAL: Ajuizamento deferido contra seu CPF. Evite bloqueios de bens e penhora de contas ligando URGENTE para 0800-040-0059",1
+08000400059,"Seu CPF foi selecionado para bloqueio de contas por evasao fiscal. Regularize a multa no valor de R$ 198,00 aqui: [link]",1
+08000400059,"Ola, aqui e da AC Assessorias. Constatamos pendencias documentais no seu registro. Por favor, entre em contato em horario comercial para regularizacao.",0
+08000400059,"DEVIDO AO DESINTERESSE DE ACORDO PARA QUITAR A DIVIDA, SEGUIU PARA MEDIDAS JUDICIAIS, PEDIDO DE BLOQUEIO DE CONTAS CORRENTES. Ligue: 08000400059",1
+08000400059,"Transferecia via PIX de R$ 3.800,00 agendada com sucesso. Caso nao tenha sido voce, acesse sua conta de seguranca para cancelar: [link]",1
+08000400059,"BRADESC0: Seu dispositivo de seguranca expirou! Atualize seu token digital nas proximas horas ou sua conta sera bloqueada: [link]",1
+08002227222,"ITAU PERSONALITE: Compra aprovada no valor de R$ 2.390,90 no Magazine Luiza. Se nao reconhece esta transacao, ligue agora para: 0800 222 7222",1
+08002227222,"ITAU: Transacao de R$ 1.500,00 aprovada no Cartao Virtual final 4821. Nao reconhece? Fale imediatamente com o nosso Suporte de Fraudes: [link]",1
+02121123730,"Informamos que nossos canais de atendimento estao com instabilidade temporaria. Pedimos desculpas pelo transtorno.",0
+08533058050,"Atencao cliente, temos descontos incriveis no plano de saude familiar so para voce. Responda essa mensagem para falar com nossos vendedores.",0
+06132073332,"GovBR: O aplicativo MEC Enem – Simuladao ja esta disponivel! Baixe agora pelo portal oficial do MEC e prepare-se com questoes e redacao exclusivas.",0
+06132073332,"GovBR: Nao identificamos o pagamento da sua taxa de inscricao do Enem 2025! O prazo finaliza HOJE. Evite o cancelamento gerando a chave Pix em: [link]",1
+06132073332,"Governo Federal: Voce tem direito ao beneficio CNH Social 2026 e isencao na conta de energia pelo Luz do Povo. Faca sua adesao aqui: [link]",1
+06132073332,"GovBR INFORMA: Ola beneficiario do Bolsa Familia. Voce foi aprovado no programa Luz do Povo! Confirme seus dados e gere a chave para liberar seu subsidio: [link]",1
+06132073332,"Beneficio Liberado: Governo informa que voce e beneficiario do Luz do Povo. Regularize seu cadastro pagando a taxa unica de ativacao em: [link]",1
+06132073332,"Governo Federal: Seu cadastro no CadUnico esta desatualizado! Atualize agora mesmo para nao perder seu beneficio do Luz do Povo e Bolsa Familia: [link]",1
+06132073332,"Governo Federal: Um atendimento medico foi agendado para voce pelo programa AGORA TEM ESPECIALISTAS. Acesse o aplicativo Meu SUS Digital para conferir.",0
+06132073332,"GovBR: Verificamos sua inscricao no Enem 2025. Acesse o portal oficial do MEC para conferir a Cartilha do Participante com dicas de redacao.",0
+06132073332,"MEC Informa: Organize sua agenda de estudos com o novo Simuladao do Enem. Mais detalhes e conteudo exclusivo no portal oficial do Governo.",0
+06132073332,"GovBR INSS: Identificamos R$ 4.530,00 de valores a receber referentes a descontos indevidos. Saque agora via Pix formalizando o acordo em: [link]",1
+06132073332,"Oi! Aqui e o gerente de RH, voce foi selecionado para uma vaga home office com ganhos de 500 reais diarios. Me chame no WhatsApp: [link]",1
+01433124580,"Sua encomenda internacional foi retida na alfandega em Curitiba/PR. Realize o pagamento da taxa de importacao para liberacao imediata do pacote: [link]",1
+08000120020,"Receita Federal: Identificamos irregularidades na sua declaracao e seu CPF/CNPJ entrara em bloqueio as 18h. Regularize a pendencia fiscal em: [link]",1
+08000120020,"Banco Mercantil informa: Seu CPF sera negativado em 24h devido a emprestimo em atraso. Pague com 80% de desconto gerando o boleto aqui: [link]",1
+08000120020,"Doacao Urgente: O Centro de Apoio precisa da sua ajuda financeira para compra de remedios vitais. Faca a sua doacao via Pix para nossa chave aleatoria: [link]",1
+08006996066,"Bom dia! Aproveite as taxas exclusivas de emprestimo consignado disponiveis no seu CPF. Responda EU QUERO e simule sem compromisso.",0
+021972401109,"Oi mae, meu celular caiu no chao e quebrou a tela, to usando esse numero provisorio. Salva ai e apaga o antigo! Preciso te pedir um favor rapido.",1
+011969331900,"Aviso de seguranca da sua operadora: Seu WhatsApp foi clonado em outro dispositivo. Para proteger seus dados e bloquear a clonagem, atualize: [link]",1
