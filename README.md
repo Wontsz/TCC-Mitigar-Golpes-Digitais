@@ -1,12 +1,11 @@
 # TCC Mitigação Golpes Digitais
 
-TCC Realizado no ano de 2026 pelos alunos do quarto ano do Curso de Ciência da Computação do Instituto Mauá de Tecnologia. O projeto tem como principal objetivo previnir e mitigar golpes digitais em canais de comunicação em massa no Brasil como Whatsapp e SMS, nos quais usuários com menor familiaridade tecnológica são mais sucetiveis a essas fraudes digitais.
+Projeto acadêmico desenvolvido no Instituto Mauá de Tecnologia com foco na detecção de mensagens fraudulentas (smishing) utilizando Processamento de Linguagem Natural (PLN) e o modelo BERTimbau. O sistema busca identificar padrões de engenharia social em mensagens de texto em português brasileiro. Além da classificação automática de mensagens suspeitas, o projeto propõe a integração do modelo a um protótipo móvel capaz de fornecer alertas explicativos ao usuário em tempo real, promovendo conscientização digital e preservação da privacidade por meio do processamento local das mensagens.
 
 Integrantes:
 - João Pedro Souza Cruz
 - Mateus Canotilho Wontroba
 - Victor Checce Pregnolatto
 
-Orientadores:
-- Evandro
-- Rodrigo Bossini
+Orientador: Prof. Dr. Evandro Catelani Ferraz
+
