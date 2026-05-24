@@ -4,7 +4,7 @@ import time
 import os
 
 # CONFIG API
-CHAVE_API = "AIzaSyASjiH_kC0bsG7uUS1d7V1qmhMJgxgkDHQ" 
+CHAVE_API = "AIzaSyCHUUd1KUyh3ATCdAZgXl8MgWus0-Y30uY" 
 client = genai.Client(api_key=CHAVE_API)
 MODELO_ESCOLHIDO = 'gemini-2.5-flash'
 
@@ -15,22 +15,35 @@ ARQUIVO_SINTETICO = os.path.join(DIRETORIO_TCC, 'dataset_mensagens_chat.csv')
 
 def sintetizar_mensagem_rapida(relato, label):
     prompt = f"""
-    Você é um especialista em cibersegurança e engenharia social. 
-    TRANSFORME o relato abaixo em uma MENSAGEM CURTA de SMS ou WhatsApp.
-
-    Regras CRÍTICAS:
-    1. IGNORE TOTALMENTE rótulos de classificação no início do relato (ex: "de golpe", "Tentativa de golpe", "spam"). Leia apenas a historinha.
-    2. NUNCA inclua palavras como "spam", "golpe" ou "denúncia" no texto gerado. Aja como o criminoso ou a empresa.
-    3. Se Label = 1 (Golpe): DIVERSIFIQUE AO MÁXIMO! Baseie-se no relato, mas varie os estilos de ataque. Use formatos como:
-       - Falso Parente: "Oi mãe/pai, troquei de numero, preciso de dinheiro!"
-       - Falsa Entrega/Correios: "Sua encomenda foi retida na alfândega. Pague a taxa de R$ XXX,XX em: [link]"
-       - Falso Emprego: "Você foi selecionado para trabalhar meio período ganhando R$ 500/dia. Acesse: [link]"
-       - Milhas/Pontos: "Seus 15.000 pontos Livelo vencem HOJE. Resgate por Pix em: [link]"
-       - Bancário clássico: Falsa compra, falso Pix agendado ou bloqueio de conta.
-       - Crédito falso: "R$XXX creditados, jogue ou saque, acesse [link]."
-       - Sites de apostas: "Voce recebeu 50 rodadas no [nome do jogo]! Credito de R$XXX ja adicionados [link]."
-    4. Se Label = 0 (Seguro): Crie um SMS de telemarketing padrão, cobrança legítima educada ou informativo de operadora, sem ameaças.
-    5. Responda APENAS com o texto final da mensagem nua e crua.
+                “Você é um especialista em cibersegurança brasileira. Sua tarefa é gerar UMA mensagem curta de SMS ou WhatsApp simulando uma tentativa real de smishing (golpe por mensagem), com base no relato de uma vítima.
+            CONTEXTO DA TAREFA:
+            A mensagem será usada para treinar um modelo de IA que detecta golpes. Para que o modelo aprenda a SEMÂNTICA do golpe (e não apenas o estilo), as mensagens fraudulentas devem ser realistas e variadas em tom, evitando exageros estilísticos que não correspondem ao que criminosos reais enviam.
+            REGRAS OBRIGATÓRIAS:
+            1. ESTILO DIVERSIFICADO — varie o tom da mensagem entre as gerações:
+                • Algumas em tom URGENTE e dramático (com caixa alta e exclamações)
+                • Algumas em tom CALMO e profissional (sem caixa alta, redação formal)
+                • Algumas em tom INFORMAL e amigável (como um conhecido)
+                • Algumas em tom BUROCRÁTICO (linguagem jurídica ou institucional)
+            Cerca de 40% do total deve usar tom calmo/profissional, justamente porque golpes sofisticados imitam comunicações reais.
+            2. CONTEÚDO CARACTERÍSTICO DE GOLPE — a mensagem deve conter pelo menos um destes elementos, que são o que de fato caracteriza smishing:
+                • Pedido de clique em link suspeito (encurtador, domínio estranho)
+                • Pedido de dados sensíveis (senha, código, dados bancários)
+                • Pedido de transferência via Pix para número desconhecido
+                • Falsa identidade (se passar por banco, órgão público, parente, empresa)
+                • Promessa de prêmio ou benefício mediante ação rápida
+                • Ameaça de bloqueio, processo ou multa para induzir reação
+            3. VARIE OS CENÁRIOS — use diferentes tipos de golpe a cada geração:
+                • Falso parente: "Oi, troquei de número, preciso de uma ajuda urgente"
+                • Falsa entrega: encomenda retida, taxa pendente
+                • Falso emprego: vaga selecionada, cadastro via link
+                • Milhas e pontos: pontos a vencer, resgate por link
+                • Bancário: compra não reconhecida, bloqueio de conta
+                • Crédito e apostas: valor creditado, saque via link
+                • Órgão público: multa, intimação, restrição de CPF
+                • Cobrança fraudulenta: dívida inexistente com urgência
+            4. NÃO INCLUA — nunca use as palavras "spam", "golpe", "fraude" ou "denúncia" no texto. Aja estritamente como o remetente real (criminoso ou empresa falsa).
+            5. IGNORE rótulos no início do relato (ex.: "tentativa de golpe", "fraude detectada"). Use apenas a narrativa em si.
+            6. FORMATO DA RESPOSTA — responda APENAS com o texto final da mensagem, como apareceria no celular da vítima. Sem aspas, sem rótulos, sem explicação.”
 
     Label: {label}
     Relato: "{relato}"
