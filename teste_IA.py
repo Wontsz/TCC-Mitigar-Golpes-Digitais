@@ -8,7 +8,7 @@ model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
 
 # CONFIGURAÇÃO DE SENSIBILIDADE
 # 0.5 é o padrão. Baixar para 0.3 torna o modelo MAIS sensível a golpes (aumenta o Recall).
-THRESHOLD = 0.3 
+THRESHOLD = 0.3
 
 def analisar_mensagem(texto):
     inputs = tokenizer(texto, return_tensors="pt", padding=True, truncation=True, max_length=128)
