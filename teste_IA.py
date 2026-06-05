@@ -11,15 +11,13 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
 
 # CONFIGURAÇÃO DE SENSIBILIDADE
-# 0.5 é o padrão. Baixar para 0.3 torna o modelo MAIS sensível a golpes (aumenta o Recall).
-THRESHOLD = 0.3 
+THRESHOLD = 0.3
 
 def analisar_mensagem(texto):
     inputs = tokenizer(texto, return_tensors="pt", padding=True, truncation=True, max_length=128)
     
     with torch.no_grad():
         outputs = model(**inputs)
-        # Convertendo logits em probabilidades (0 a 1)
         probs = F.softmax(outputs.logits, dim=-1)
         prob_golpe = probs[0][1].item()
     
@@ -30,7 +28,7 @@ def analisar_mensagem(texto):
     print(f"Decisão (Threshold {THRESHOLD}): {status}")
 
 # Loop de teste
-print("Detecção (Foco em Recall)")
+print("\nDetecção Pronta (Foco em Recall)")
 while True:
     msg = input("\nDigite a mensagem (ou 'sair'): ")
     if msg.lower() == 'sair': break
