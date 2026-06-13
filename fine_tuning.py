@@ -17,7 +17,7 @@ from transformers import (
 
 # Configs e Dados
 MODEL_NAME = "neuralmind/bert-base-portuguese-cased"
-CSV_PATH = "dataset_v4_final.csv"
+CSV_PATH = "dataset_v4_final_fixed.csv"
 
 df = pd.read_csv(CSV_PATH).rename(columns={
     'mensagem_chat_sintetica': 'text', 
