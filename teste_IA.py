@@ -2,8 +2,8 @@ import torch
 import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-MODEL_PATH = "Wontsimt/detector-phishing-v4-links" #nuvem, detector-phishing-v1 para modelo de 90%
-#MODEL_PATH = "./modelo_smishing_final" #local
+#MODEL_PATH = "Wontsimt/detector-phishing-v4-links" #nuvem, detector-phishing-v1 para modelo de 90%
+MODEL_PATH = "./modelo_smishing_final" #local
 
 print("Carregando o modelo diretamente da nuvem...")
 MODEL_PATH = "./modelo_smishing_final"
