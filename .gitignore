@@ -2,3 +2,5 @@
 resultados_tcc/
 logs/
 modelo_smishing_final/
+modelo_onnx/model.onnx
+modelo_onnx/model_int8.onnx
