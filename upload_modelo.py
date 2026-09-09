@@ -1,19 +1,14 @@
+import os
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-# Caminho para o model.safetensors
-pasta_local = "C:/Users/mateu/Documents/GitHub/TCC-Mitigar-Golpes-Digitais/modelo_smishing_final"
+pasta_local = "./modelo_smishing_final"
+repo = "victorcpregno/detector-smishing-v7"
 
-print("A carregar o modelo local na memória...")
-
+print("Carregando o modelo local...")
 modelo = AutoModelForSequenceClassification.from_pretrained(pasta_local)
 tokenizer = AutoTokenizer.from_pretrained(pasta_local)
 
-nome_do_repositorio_nuvem = "Wontsimt/detector-phishing-v2-links"
-
-print(f"A iniciar o upload para: {nome_do_repositorio_nuvem}")
-print("Enviando para a nuvem do Hugging Face...")
-
-modelo.push_to_hub(nome_do_repositorio_nuvem)
-tokenizer.push_to_hub(nome_do_repositorio_nuvem)
-
-print("Upload concluído")
+print(f"Enviando para: {repo}")
+modelo.push_to_hub(repo, token=os.environ["HF_TOKEN"])
+tokenizer.push_to_hub(repo, token=os.environ["HF_TOKEN"])
+print("Upload concluido")
