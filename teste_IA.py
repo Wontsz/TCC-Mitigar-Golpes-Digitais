@@ -22,7 +22,6 @@ def analisar_mensagem(texto):
         prob_golpe = probs[0][1].item()
     
     status = "GOLPE (1)" if prob_golpe >= THRESHOLD else "LEGÍTIMO (0)"
-    
     print(f"\nTexto: {texto}")
     print(f"Probabilidade de Golpe: {prob_golpe:.2%}")
     print(f"Decisão (Threshold {THRESHOLD}): {status}")

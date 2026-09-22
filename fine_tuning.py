@@ -12,12 +12,15 @@ from transformers import (
     AutoModelForSequenceClassification, 
     TrainingArguments, 
     Trainer,
-    EarlyStoppingCallback
+    EarlyStoppingCallback,
+    set_seed
 )
+
+set_seed(42)
 
 # Configs e Dados
 MODEL_NAME = "neuralmind/bert-base-portuguese-cased"
-CSV_PATH = "dataset_v7.csv"
+CSV_PATH = "datasets/dataset_v7.csv"
 
 df = pd.read_csv(CSV_PATH).rename(columns={
     
@@ -83,8 +86,10 @@ training_args = TrainingArguments(
     load_best_model_at_end=True,
     metric_for_best_model="eval_recall",
     logging_dir='./logs',
+    seed=42,
 )
 
+set_seed(42)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, num_labels=2)
 
 trainer = CustomTrainer(
@@ -130,7 +135,7 @@ for t in thresholds:
     linhas_tabela.append(f"Threshold: {t} | Precisão: {p:.4f} | Recall: {r:.4f} | F1-Score: {f1:.4f}")
 
 # Salva arquivo de texto com o resumo para o TCC
-with open("tabela_thresholds.txt", "w") as f:
+with open("tabela_thresholds.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(linhas_tabela))
 
 # Salva o modelo final
