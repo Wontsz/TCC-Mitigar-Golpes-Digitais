@@ -6,12 +6,11 @@ MODEL_PATH = "Wontsimt/detector-phishing-v3-final" #nuvem
 #MODEL_PATH = "./modelo_smishing_final" #local
 
 print("Carregando o modelo diretamente da nuvem...")
-MODEL_PATH = "./modelo_smishing_final"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
 
 # CONFIGURAÇÃO DE SENSIBILIDADE
-THRESHOLD = 0.3
+THRESHOLD = 0.5
 
 def analisar_mensagem(texto):
     inputs = tokenizer(texto, return_tensors="pt", padding=True, truncation=True, max_length=128)
