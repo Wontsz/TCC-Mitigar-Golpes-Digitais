@@ -1,3 +1,5 @@
-Threshold: 0.5 | Precisão: 0.9333 | Recall: 0.9655 | F1-Score: 0.9492
-Threshold: 0.4 | Precisão: 0.9245 | Recall: 0.9655 | F1-Score: 0.9446
-Threshold: 0.3 | Precisão: 0.9245 | Recall: 0.9655 | F1-Score: 0.9446
+Threshold: 0.5 | Precisï¿½o: 0.6638 | Recall: 0.9871 | F1-Score: 0.7938
+Threshold: 0.4 | Precisï¿½o: 0.5374 | Recall: 0.9914 | F1-Score: 0.6970
+Threshold: 0.3 | Precisï¿½o: 0.4813 | Recall: 1.0000 | F1-Score: 0.6499
+
+(tabela equivocada devido a um erro durante o fine tunning)

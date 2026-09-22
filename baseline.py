@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
 import pandas as pd
 
-df = pd.read_csv('dataset_v7.csv')
+df = pd.read_csv('./dataset_v7.csv')
 X_train, X_test, y_train, y_test = train_test_split(
     df['mensagem_chat_sintetica'], df['label_ia'], test_size=0.15,
     stratify=df['label_ia'], random_state=42

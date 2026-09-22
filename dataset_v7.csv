@@ -870,7 +870,7 @@ numero,mensagem_chat_sintetica,label_ia
 0,"amor, o acesso ao sistema ficou bloqueado pra manutenção hoje",0
 0,"pai, consegui a promoção no trabalho! você não imagina como estou feliz",0
 0,"mãe, urgente: o João caiu e cortou o joelho fundo, preciso de socorro",0
-0,boa tarde! sou da assistência técnica. o aparelho do seu pai ficou pronto. pode retirar quando quiser,0
+0,"boa tarde! sou da assistência técnica. o aparelho do seu pai ficou pronto. pode retirar quando quiser",0
 0,banco central: pix duplicado detectado. estorne o valor,1
 0,Workana: codigo de verificacao do seu cadastro: 847102.,0
 1129283850,Banco Inter AVISA: O seu limite de crédito foi reduzido por falta de pagamento. Efetue o pagamento da fatura atrasada imediatamente para restabelecer o serviço.,0
@@ -1713,12 +1713,12 @@ numero,mensagem_chat_sintetica,label_ia
 0,clica aqui e veja quem está falando de você nas redes: fgts-libera.info/aniversario,1
 1129283850,"Olá, boa tarde! Gostaria de confirmar se já recebeu o comprovante de pagamento da renda referente ao mês de maio que eu enviei para o e-mail da imobiliária ontem à noite. Eu anexei também o recibo do condomínio quitado para não ficar nenhuma pendência financeira no vosso sistema de cobranças.",0
 1129283850,Conseguiu resolver aquela lista de números complexos? Travei na parte de calcular a matriz adjunta hermitiana.,0
-0,qualquer valor que você puder me mandar vai ajudar muito,1
+0,"qualquer valor que você puder me mandar vai ajudar muito",1
 0,"mano, esse tutorial de programação é incrível: bit.ly/tutorial-python — salvei aqui",0
 0,"cara, minha internet tá um lixo hoje. você tá tendo problema também?",0
-0,seu pedido está aqui mas tem uma pendência para entregar,1
+0,"seu pedido está aqui mas tem uma pendência para entregar",1
 1129283850,"Oi, desculpa a mensagem. É a tua tia, estou com um problema grave aqui e preciso que me emprestes um valor para pagar uma conta. Podes transferir para este Pix?",1
-0,Receita Federal: DARF em aberto no valor de R$ 1.200. pague até amanhã em receita-irpf.info/darf,1
+0,"Receita Federal: DARF em aberto no valor de R$ 1.200. pague até amanhã em receita-irpf.info/darf",1
 1129283850,Amazon Web Services: Your verification code is 881234. Do not share it with anyone.,0
 1129283850,"Mãe, meu celular quebrou a tela. Salva esse número novo. Preciso de um Pix pra pagar o técnico, pode me ajudar? Assim que chegar em casa eu te explico.",1
 0,iFood: sua avaliação do restaurante foi publicada. obrigado!,0
@@ -3008,3 +3008,390 @@ numero,mensagem_chat_sintetica,label_ia
 0,"mano, vou chegar uns 20 minutos atrasado. pode pedir minha pizza junto?",0
 0,"galera, cuidado com links de promoções absurdas. se parece bom demais é golpe",0
 0,"boa tarde, é do banco? quero saber sobre abertura de conta empresarial",0
+0,"RECEITA FEDERAL: Restricao ativa em seu CPF pode bloquear contas, credito e financiamentos. Acesse: tfttrt.site/?api.userevi.com",1
+0,"ALERTA-B.B.:Seus 92.746 em beneficios estao prontos para troca.Organize suas despesas ou faca viagens. Saiba mais em: americapayonline.com",1
+0,"Clique  para reivindicar seu 88 Rael.  https://7f9895696.com?ch=90446",1
+0,"Voce recebeu R$ 9.867 + 125 giros no Super Goldfish e um codigo sms. Sua conta esta ativada ha mais de 48 dias.  https://bit.ly/HV_l2",1
+0,"Sua conta esta ativa ha 5 meses.conta tem R$9568 e 125 giros gratis.Seu codigo SMS e 11946029784.Deposite R$10 Ative agora para receber.  https://bit.ly/9B_9i",1
+0,"CASA CHINA PAGANDO TUDO! No Touro, entre 23:59h e 08:59h, a chance de lucro esta aberta. Entrada minima de R$10! https://bit.ly/43mx23k?9784",1
+0,"Parabens! Voce foi promovido a VIP e a recompensa foi creditada na sua conta 11946029784. Use a senha a029784 para acessar https://bit.ly/bkz1823",1
+0,"PlX: E uma loucura! Alta taxa de drop, altas recompensas! Pague R10 com PlX! 99% de chance de ganhar R888! Clique no link https://bit.ly/462Qpkl",1
+0,"B/B: SaIdo total de 125.525mil bonus expiram hoje, Converta em cash-back, viagens entre outros: muito +: premiosdiariox.com",1
+0,"DEBORA , Voce tem ate R$ 10.464,80 disponivel para ACESSAR, pela sua margem. Responda SIM para receber proposta.",1
+0,"Receita Federal: Restricao ativa em seu CPF pode bloquear contas, credito e financiamentos. Regularize-se imediatamente. Acesse cadhabilita.com",1
+0,"Boa tarde! Devido a uma falha no sistema ontem, adicionamos 100 reais na sua conta KK11 final 784. Sem precisar baixar! Acesse: https://bit.ly/499wKQL",1
+0,"FORTUNE TIGER PAGANDO ALTO Entrada aberta aproveite Saldo 2.834,00 09:10-11:45 13:20-16:10 18:30-22:50 https://bit.ly/3OxKYUt?9784",1
+0,"DETRAN: Prezado(a), . Constam pendencias em sua CNH. Evite SUSPENSAO no PRAZO VIGENTE. Acesse: http://dtthbn.site (Prioridade)",1
+0,"CREDITADO! Pedro Moraes realizou PIX de R$965,00 para 11946029784. Entre na sua conta e confira o valor para uso imediato: https://bit.ly/4q51LMk?9784",1
+0,"HABILITACAO CANCELADA! Regularize agora e evite a perda da sua permissao! carteira.verificarhabilitacao.com/KJHGUR",1
+0,"BRADESCO CARTOES: SEUS 97.987 MIL PONTOS VENCEM HOJE TROQUE POR MILHAS PRODUTOS ELETRONICOS CASHBACK OU DESCONTOS NA FATURA EM: bradesco.resgatarprodutos.com",1
+0,"Aumento no saque: R$ 8.605,60 para voce liberar e com as menores taxas! Responda SIM e aproveite logo.",1
+0,"Nubank: Seu Pix de R$523,00 chegou! De: Vinicius Souza. Horario: 12/01 23:02 . ID da Transacao: NU-4F70A21C Consulte detalhes  https://bit.ly/3XZyFRQ?9784",1
+0,"VOCE FICOU RICO SEM PERCEBER!!! Seu CPF ativou um bo_nus oculto de R$2.528! Toque agora e receba na hora! https://bit.ly/49WqHQK?9784",1
+0,"Ei! Seus USDT estao acumulando rendimento. O CPF vinculado ao numero [11946029784] gerou um bonus de R$174 disponivel via PIX. https://bit.ly/49ufuH8?9784",1
+0,"B+B:Voce possui 98.435miI Bonus vencendo hoje , TR0QUE em DINHEIR0 eletronicos e muito + :https://ww.suporte-pontuax.com",1
+0,"Compra em analise no valor de R$ 2.750,00 Via app Casas Bahia, caso nao reconheça ligue para area de segurança 4004 6486",1
+0,"Mandei um convite de emprego ontem. Voce esta interessado, detalhes  wa.me/559293875334",1
+0,"Receita FederaI: Prezado(a), Restricao ativa em seu C.P.F. pode bloquear credito e financiamentos. Regularize-se imediatamente, acesse http://trbtimp.site",1
+0,"Itau Informa: Seus pontos ITAUCARD vencem HOJE, troque por PRODUTOS e MILHAS agora mesmo. Acesse:   m.avisodeponto.com",1
+0,"Sortudo! R$300,00,Sua acc PG Foi enviado, Por favor ative Querido! https://rb.gy/jc7px6",1
+0,"COELHO DA SORTE Voce recebeu um 128,00 reais jogue ou saque Registre-se e receba!! https://win222c.com/?id=581081595",1
+0,"Maria, a PERNAMBUCANAS esta facilitando o pagamento do seu acordo! Acesse acordo.me/cb4zlfVgn para obter o boleto.",1
+0,"CAIXA: Compra com débito realizada no Valor: R$ 2.635,41. Caso não reconheça essa transação para bloquear Acesse: https://caixa.atendimento-sac.app/",1
+0,"Select: seu saldo total de 80.000 mil bonus esta expirando hoje, converta em dinheiro, viagens e muito mais: https://bonusconsultar.digital/?app",1
+0,"SANTANDER: RS 1.900,00 no MERCADOLIVRE esta retido por seguranca. Digite (1) para aprovar ou (2) para recusar.",1
+0,"SANTANDER: Seus 72.103 pontos expiram hoje! Troque em produtos ou descontos em: https://bonusconsultar.digital",1
+0,"SANTANDER: Voce possui 95.391 mil pontos vencendo hoje! Troque por dinheiro no pix, produtos na loja ou descontos acesse: https://bonusconsultar.digital",1
+0,"SANTANDER: Gasto de RS 1.900,00 no MERCADOLIVRE detectado. Responda (1) se autoriza ou (2) se nao foi voce agora",1
+0,"SANTANDER: Responda com urgencia! Uso de RS 1.900,00 no MERCADOLIVRE. Digite (1) se voce confirma ou (2) para suspender o cartao.",1
+0,"TAFACIL INFORMA:Credito aprovado! Cartao Beneficio com TAXA REDUZIDA e VALOR EXTRA na hora no seu PIX. Garanta o seu: https://w.app/tafacilconsignados",1
+0,"BRADESCO: SEUS 97.987 MIL PONTOS LIVELO VENCEM HOJE TROQUE POR MILHAS PRODUTOS ELETRONICOS CASHBACK OU DESCONTOS NA FATURA EM: bradesco.produtosgratis.com",1
+0,"Pague menos pela energia da sua empresa. Economia real, sem investimento inicial. Saiba mais: https://adsclaro.com/Enel_SMS",1
+0,"BRP/GOOROO: CREDITO DO TRABALHADOR! Conheca AGORA o consignado LIBERADO pelo Governo! NEGATIVADO PODE! Ligue 4003-7876 ou clique em https://linktr.ee/gooroocred",1
+0,"Personnalite Seus pontos estao esperando! Resgate ate hoje 89.451 pontos por descontos e premios. pontosativar.co/tTQCY",1
+0,"Compra em analise no valor R$ 2.750,00 via app lojas Americanas, caso nao reconheça ligue para area de segurança 0800 580 3587",1
+0,"Compra em analise no valor de R$ 2.999,99 Via App Mercado Livre caso nao reconheça entre em contato com a area de Segurança.4003-6615",1
+0,"Compra em análise no valor de R$ 3.750,00 via app Casas Bahia. Caso não reconheça, ligue para a área de segurança: 0800 880 0889",1
+0,"Compra em análise no valor de R$1.474,99 Via app Casas Bahia, Caso não reconheça ligue para área de segurança 4003 6638",1
+0,"Compra em análise no valor de R$2.750,00 Via app Casas Bahia, caso não reconheça ligue para área de segurança 4003 6619",1
+0,"Compra em analise no valor R$ 2.750,00 via app lojas Americanas, caso nao reconheça ligue para area de segurança 0800 580 3587",1
+0,"Compra em analise no valor de R$ 2.750,00 Via app Lojas Americanas , caso nao reconheça ligue para area de segurança 4004 6408",1
+0,"Compra aprovada no valor de 3.999,99 em MERCADO LIVRE via app BRADESCO. Caso não reconheça contate a central de atendimento 0800 000 3986",1
+0,"Compra realizada com sucesso via APP MERCADO LIVRE no valor 3.250,00. Para autorizar responda SIM, cancelar ou duvidas ligue: 0800 056 2448",1
+0,"MARCEAL, voce tem 300 giros gratis na Superbet. Min. da Faz. adverte: Aposta nao e investimento (+18) https://tim-ads.com/-mZEzHD8SHg",1
+0,"DANIEL, apostou, ganhou 30 Giros Gratis no tourinho pra ainda mais diversao! Jogue com responsabilidade (+18) https://timads.up.st/c8-e6YFkV",1
+0,"GIOVANI, ate 200 RODADAS GRATIS por dia! Experimente agora na Betao. Jogue com responsabilidade https://tim-ads.com/3Pz-hEvYZ0Q",1
+0,"Sua vez chegou! Dirija-se a entrada - DETRAN: Constam pendencias em sua habilitacao, SUSPENSAO no PRAZO VIGENTE. Acesse http://cadhabilita.me",1
+0,"Bradesco Cartões: seus 125.451 mil pontos vencem hoje, troque por milhas, produtos eletrônicos, cashback ou descontos na fatura em https://app-acesso.cfd",1
+0,"GABRIELA, VOCE FOI PREMIADO! Ate 200 rodadas GRATIS todos os dias na R7Bet. (+18) https://tim-ads.com/NTav1FKI9oY",1
+0,"oi pai, me manda 200 reias?",1
+0,"MARCIO, VC FOI ESCOLHIDO! GANHOU 3 mensalidades GRATIS do Cartao de TODOS para cliente TIM. Saiba mais https://cdttim.vc/S1050510",1
+0,"LUISA SEU NOME SERA ENVIADO PARA NEGATIVAR E BLOQUEAR CONTAS E CARTOES POR FALTA DE PAGAMENTO DA DIVIDA DO CPF*3876. RETORNO ATE AS 17H 4000 2785",1
+0,"Blaze: Viva a emocao de jogar! Faca parte dessa experiencia com a Blaze. (+18) P/ sair, envie SAIR p/ 1136. https://tim-ads.com/DqZDypN_7vY",1
+0,"lTAUCARD: Voce possui 36.261 Pontos proximos do vencimento. Ative seu Programa de Pontos: http://wwv.pontossitau.com",1
+0,"Seu CARTAO DE CREDITO do C6 Bank c/ LIMITE pode estar DISPONIVEL agora p/ vc! No C6 eh FACIL, RAPIDO e NA HORA. Saiba+ https://c6bank1.page.link/j2AP",1
+0,"Olá, sou gerente de contratação da Mercado Livre, devido a vagas estamos enviando uma candidatura de meio período para trabalhar em casa, o salário será pago no mesmo dia, 500-3000 reais por dia. Interessados em entrar em contato comigo para consulta WhatsApp: wa.me/5511969411111 WhatsApp+5511969411111 Entre em contato com o atendimento ao cliente para ganhar 18 reais de graça (Nota: os candidatos devem ter PIX)",1
+0,"Olá senhor/senhora. A empresa (shopee) contrata funcionários em meio período, ganhando de 1.000 a 3.000 reais por dia. Você só precisa de um celular para se candidatar a uma vaga, e agora só precisa baixar o Telegram para adicionar contatos para se candidatar a uma vaga e receber uma recompensa de 15 reais. Contato do Telegram; https://t.me/Ruth1688 Telegram:@Ruth1688 (Nota: Os candidatos devem ter pelo menos 23 anos de idade e os alunos não podem participar)",1
+0,"Agliberto, CPF NEGATIVADO! Negocie ainda hoje com condicoes imperdiveis ligando para 08000250000 ou acessando: bit.ly/3QjtqHD",1
+0,"Voce foi selecionado para um emprego com renda alta . Para maiores informacoes: Aceite:https://bit.ly/3KSX03b",1
+0,"Tenha acesso a uma loja com muitas novidades, ofertas exclusivas, detalhes do seu plano e muito mais! Baixe o App Meu TIM e aproveite: d3s3b.app.goo.gl/US7n",1
+0,"ANTERLEY ainda da tempo de ficar livre da divida. Aproveite as vantagens exclusivas! https://wa.me/551121713030 ou ligue 0800 888 1183",1
+0,"AGLIBERTO, NAO IDENTIFICAMOS SEU ACORDO! NOTIFICACAO EXTRAJUDICIAL SERA EMITIDA EM SEU CPF HOJE! 0800 7199291 ou https://nwdsk.co/x1npO. Adv Bellinati",1
+0,"Olá, sou o gerente geral do Sebrae e atualmente estou contratando uma equipe de meio período. Salário mensal: 1000-5000 Entre em contato com o WhatsApp: +5527995234430 Clique no link abaixo para consultar o atendimento ao cliente online:https://wa.me/5527995234430 Lembrete amigável: responda ao número '1' duas vezes para clicar facilmente no URL para fazer o login ou copie o URL para o navegador para abrir! !",1
+0,"Ola, voce foi selecionado para trabalhar online. 600 por dia. +: https://wa.me/5511983887020",1
+0,"Parabns por ter sido selecionado para um emprego de meio periodo online, 5000BRL por dia, entre em contato comigo WS: wa.me/5511996704331",1
+0,"ROBERTO,Processo AMD288 aberto,aguardamos seu contato imediato p/ tratarmos do BLOQUEIO AUTORIZADO em seu CPF.0800 7199291 ou nwdsk.co/x1npO. Adv Bellinati",1
+0,"DENIS, NAO IDENTIFICAMOS SEU ACORDO! NOTIFICACAO EXTRAJUDICIAL SERA EMITIDA EM SEU CPF HOJE! 0800 7199291 ou https://nwdsk.co/x1npO. Adv Bellinati",1
+0,"Bradesco: Identificamos uma inconsistencia que pode limitar seu credito. Resolva hoje e evite bloqueios. Acesse https://ngne.me/bradescosa ou 0800 757 1000",1
+0,"Movimentacao extrajudicial iniciada. Precisamos do seu contato com urgencia. Acesse e resolva: https://ngne.me/bradescosa ou ligue 0800 757 1000",1
+0,"DETRAN: Prezado condutor, sua CNH esta em processo de suspensao, regularize agora e evite a suspensao da sua CNH, acesse agora https://acessa.digital-cnh.org/",1
+0,"Ola! Voce precisa atualizar as configuracoes de Rede e Servicos Claro do seu aparelho. E gratis! Se necessario, digite o PIN 1234 para comecar.",1
+0,"Cartoes Itau: Ultima chance! Seus 38.443 mil PONTOS venceu! Troque ainda HOJE por milhas, eletronicos ou cashback. Nao perca troque em: itau.trocapresentes.com",1
+0,"PagBank: Compra realizada em ROSARIA RIBEIRO PACHECO, valor R$ 7,00 em 29/01/25 as 09h18.  Comprovante digital em: https://pagseguro.info/bkczwzcY&*blcJn5TCT",1
+0,"RAIA: Raia Dose Certa + NovoDia! Pacientes cadastrados tem ate 54% de desconto no Rybelsus. Saiba mais: https://bit.ly/3EMfMvX (p/ sair PARE)",1
+0,"Itau XXX01-6: Cadastre em debito automatico a conta CLARO MOVEL paga de R$366,22 Sem surpresas Aparecera em lancamentos futuros Responda (1) SIM ou (2) NAO",1
+0,"MEQUI DA VIRADA: seu primeiro milhao esta no Meu Mequi. Vem pro app aproveitar! https://bit.ly/4a03Wtd",1
+0,"Agendamento PIX no valor de 4.550,00 realizado com sucesso. Caso nao reconheca ligue imediatamente para 0800 401 0015",1
+0,"Ola aqui e da Claro. Boa noticia, seu pedido esta a caminho! Consulte o andamento no linkhttps://goo.gl/6R1uCV e cod TJ152828943BR",1
+0,"O saldo da sua conta e de:  R$1.578,04. Clique no link para comecar a jogar: https://gujogo.com/?ch=dtlsk",1
+0,"Parabens, voce recebeu um premio independente de R$188 que pode retirar, e boa sorte! http://tinyurl.com/9cu3crn4",1
+0,"ITAU CARTOES AVISO:Prezado(a) Cliente, seus 72.589 PONTOS se expiram hoje. Troque agora https://heylink.me/PontosItau",1
+0,"CIiCKlTAUSH0P-11992670226:Seus 156.654pts.VENCE,22/09TRANSF0RME-0S CASHBACKAG0RA: m.advtee.club/?advs.br",1
+0,"ALERTA VR: Use o codigo 312430 para autenticacao no seu SuperApp VR e Voce.",1
+0,"Parabens pela aprovacao, voce foi selecionado em meio periodo/periodo integral. mais de 500 dias. Aceite esta vaga: https://wa.me/380996470485",1
+0,"•ItaucardﾠAVISO: 11992670226ﾠﾠﾠ ULTIMOﾠdiaﾠparaﾠfazerﾠaﾠtrocaﾠdeﾠseusﾠpontos,ﾠaproveiteﾠagoraﾠmesmoﾠeﾠfaçaﾠaﾠtrocaﾠPor PRODUTOS ou MILHASﾠ bit.ly/ItaPontosMilhas",1
+0,"Appltau_lnforma: Estou passando pra avisar que sua compra no valor de R$479.90 esta sendo analisada se nao foi voce clique s.id/ItCancel para cancelar",1
+0,"Seus_Pontos_lTAUCARD_Vencem_Hoje_Troque_Agora_Mesmo_por_MlLHAS_e_DlVERSOS_Produtos_neste_SlTE:http://m.resgaterapidopontos.com",1
+0,"C A I X A: Agendamos com sucesso sua transferencia de R$ 789,77 na data de hoje via TED, para cancelar 0i.is/onAtendimento",1
+0,"𝗜𝘁𝗮𝘂-𝗹𝗻𝗳𝗼𝗿𝗺𝗮 𝗣𝗹𝗫-𝗣𝗘𝗡𝗗𝗘𝗡𝗧𝗘 - brr.bloqueiocartao.com",1
+0,"CAIXA INFORMA: Seu acesso ao App CAIXA vai ficar pendente de acesso. Confirme seus dados atraves do link appxverificacao.com para nao haver o bloqueio preventivo do seu App CAIXA.",1
+0,"Seu VEICULO esta sem SEGURO? Por APENAS $ 54,90 - e nada mais - proteja contra FURTO/ROUBO  SOCORRO/GUINCHO 24hs. Cotacao gratis: superbeneficios.com/simulacao",1
+0,"CAIXA INFORMA: Fator de Seguranca Disponivel,Evite o Bloqueio do seu USUARIO,Siga no 0i.is/FATOX Porque a sua Seguranca e o nosso Compromisso.",1
+0,"ItaucardSA'' 'COMPRA''aprovada com 'Sucesso_na 'Magalu'_no valor'R$799,99 'Entrega_Prevista' 3''Dias''cancelamento 'ou 'Localizar_acesse bit.ly/3ItauFatura24Hrs",1
+0,"𝑪𝑨𝑰𝑿𝑨-𝑨𝑷𝑷: ᴀᴘʟɪᴄᴀᴛɪᴠᴏ ʙʟᴏǫᴜᴇᴀᴅᴏ! ACESSE: ww4.clicknconta.com",1
+0,"Claro Empresas: A suspensao parcial dos seus servicos ocorrerao dentro de 1 dia, negocie ainda hoje e evite. Voce pode entrar em contato atraves do 08007212224",1
+0,"    •CAIXA_INFORMA:  Seu  aparelho  encontra-se  desabilitado.  Regularize  agora  mesmo  em  nossos  canais  de  autoatendimento    bit.ly/3zrjOl9",1
+0,"I TA U C A R D: 11992670226 ' Um novo aumento de limite de 2.890 reais ja esta disponivel para seu cartao de credito para liberar clique em ' liberaraumento.com e siga os passo a passo!",1
+0,"''SeguranÇa_Antigolpes'' | C A I X A: ''MovimentaÇao ''suspeita no ''aplicativo ''VEJA ''AQUI.  clickcefatualizegov.com",1
+0,"BB: Voce tem 86.174 ClubePontos perdidos. Va ate uma agencia ou reaveja-os em: celular.cefcontato.com",1
+0,"⁪B⁪RADESCO⁯: ⁪Atualiz⁪e ⁪se⁪u ⁪cadast⁪ro ⁪e ⁪evi⁪te ⁪cobran⁪ca ⁪de ⁪R$118.90, ⁪Acesse: ⁪⁯‌‪⁯⁪Ac⁪e⁪sse: cadastroaparelho.com/?br=11992670226",1
+0,"SANTANDER: De volta às Compras! Novidades em seu limite de Credito 0i.is/ClickWay",1
+0,"Seus_Pontos_lTAUCARD_Vencem_Hoje_Troque_Agora_Mesmo_por_MlLHAS_e_DlVERSOS_Produtos_pelo_nosso_SlTE: http://ww.recolhimentodepontos.com",1
+0,"CliksItaucard 2.0:Temos um novo limite de credito_pre-aprovado_em nosso_app para voce.litaucadavisosms.com ou ligue_na central 3003-3030",1
+0,"BB: VC TEM NO TOTAL 121.947 PONTOOS PERTO DO VENCIMENTOO. #RESGATEEHOJE EM: portatiliv.com",1
+0,"ATENÇÃO:Aviso_Da • Caixa: • atualize_seus_dados_e_evite bloqueio_Da_Conta_http://cx.pravcsms.me",1
+0,",CAIXA_ECONOMICA, 11992234526 'Viemos_Informa que voce tem 48 horas Para 'evitar A EXPIRAÇAO' do Seu_dispositivo' de_SEGURANÇA' e o ''Bloqueio da sua 'assinatura_eletronica' basta_acessar acessoappsdigital.com",1
+0,"(lTAU_CARTOES):Seus_pontos_vencem_hoje_troque_em_milhas_aereas_ou_outros_produtos_no_site:  appon.itt4u-regullariize.com",1
+0,"App_ltau: Cliente especial (LINHA_DE_CREDITO) com até $15.000.00 Reais,nao fique de fora dessa! Agr em  Itau_Cliente https://1mc.co/20ul3Hm",1
+0,"Claro Informa! Voce Acaba de ganhar R$.30.000 Mil! Em Dinheiro No sorteio da promocao Claro Sonho premiado! P+Infor: ligue Urgente P/02191988401394{senha 149988",1
+0,"BB: VC TEM NO TOTAL 119.947 PONTO$ PROXIMO DO VENCTO. #RECUPEREHJ AQUI: simsclientes.com",1
+0,"CAIXA APP|Appseguro: Mais proteÇao para voce usar quando quizer acesse: http://portal.appceflink.com , evite qualquer tipo de cancelamento.",1
+0,"Santander_Informa: Duas novas compras pendentes de confirmacao no seu cartao. Caso nao tenha sido o titular, fique seguro em https://bit.ly/2RS8td2",1
+0,"BB: VC TEM NO TOTAL 204.947 PONTO$ PERTO DO VENCIMENT0! #RECUPEREHOJE EM: b.qresgt.com",1
+0,"𝐹𝐸𝑙𝑅𝐴𝑂 𝑆𝐸𝑅𝐴𝑆𝐴:𝚀𝚞𝚒𝚝𝚎 todas suas 𝐃𝐈𝐕𝐈𝐃𝐀𝐒 ℕö 𝑆𝐸𝑅𝐴𝑆𝐴/𝑆𝑃𝐶 com 𝑎𝑡𝑒 ⑨⑤% 𝐃𝐄𝐒𝐂𝐎𝐍𝐓𝐎 𝘢𝘤𝘦𝘴𝘴𝘦 http://bit.ly/2R7NKBF",1
+0,"𝗕𝗔𝗡𝗖𝗢 𝗗𝗔 𝗖𝗔𝗜𝗫𝗔 : 𝖢𝖤𝖭𝖳𝖱𝖠𝖫 𝖣𝖤 𝖠𝖳𝖤𝖭𝖣𝖨𝖬𝖤𝖭𝖳𝖮 𝖤𝖵𝖨𝖳𝖤 𝖡𝖫𝖮𝖰𝖴𝖤𝖨𝖮 𝖳𝖮𝖳𝖠𝖫 𝖣𝖤 𝖲𝖴𝖠 𝖢𝖮𝖭𝖳𝖠 𝖠𝖢𝖤𝖲𝖲𝖤 https://cx.avisoparavc.com",1
+0,"⁪‌⁯BRA⁪⁯⁯DES⁪⁯⁯CO ⁯: ⁪⁯‌⁯E‌vite⁯ ⁪⁯‌bloq‌⁪ueio⁯ ‌⁪⁯de⁯ ‌⁪⁯s⁪ua ‌⁪⁯conta,‌⁪⁯re‌al⁪ize ⁪⁯o ⁪⁯cada⁪stro ⁯ ‌⁪⁯obrig‌a⁪⁯t⁪orio. ⁪⁯‌⁯Ac⁪e‌sse: conect.acessoportalbrb.com/?br=11992670226",1
+0,"C A I X A: ¤Sua_conta_foi_bloqueada_para_prosseguir_com_o_desbloqueio_veja_aqui¤: clickdesbloqueiocaixa.com",1
+0,"lTAU'30HORAS: 11992670226 É necessario regularizar seu dados de forma segura, para que sua conta nao seja desativada, veja em: guardiaosms.com/",1
+0,"BB: VC TEM 189.238 PONTOS PROXIMOS DO VENCIMENTO! PARA NAO PERDE-LOS, RESGATE EM: pmilhast.com",1
+0,"@HyperCard S/A: Prezado(a) 859.....5 estamos com problemas no seu cartao que podem ocorrer multas, veja em https://n9.cl/rj9a",1
+0,"ITAU: Urgente!!  Sua conta encontra'se. com ltoken'Expirado. A confirmacao encerra em 28/02/21. http://cadastroitokenitau.com",1
+0,"𝐂𝐀𝐥𝐗Λ Apȧrẹlhȯ cȯm dȧtȧ dẹ tẹrminȯ dẹ 𝒗𝒂𝒍𝒊𝒅𝒂𝒅𝒆 pȧrȧ 27/02 𝒆𝒗𝒊𝒕𝒆 a suspensão tȯtȧl rẹȧtivẹ ẹm http://bit.ly/3qGC9Xa?11992670226",1
+0,"BB COMPRΛ 745,70 REAIS CΛRTΛO 4984*** CΛSΛS BΛHIΛ CΛSO DΈSCONHΈÇΛ ĊLICK http://BBecomerce.contact?R31/11992670226 PΛRΛ CΛNCELAR.",1
+0,"ltau_lnformativo: Seus_Pontos_Vencem_Hoje_Troque_Agora_por_Milhas_ou_Produtos_no_Site: http://ww.apptrocapontos.com",1
+0,"BANCO DO BRASIL: VOCE TEM APROX: 230.397 PONTO$ PROXIMOS DO VENCIMENTO! PARA RESGATAR, VlSITE: registrost.com",1
+0,"Sua_PontuaÇao_Venceu_Hoje. Acesse_e_Troque_Agora_Mesmo_Acesse: avisocerto.com",1
+0,"eae amigo, tudo bom? troquei de numero, nn ta me reconhecendo? Preciso de um favor seu. To apertado com as contas e precisava de uma grana",1
+0,"Para que possamos enviar o seu fogão é necessário que voce pague o frente, assim que recebermos o valor nós poderemos enviar",1
+0,"opa transferi um valor de 1500 reais sem querer na sua conta, poderia devolver?",1
+0,"Porto Bank: Ultimo mes para concorrer a R$5 mil. Abra e movimente sua conta a partir de R$10 e participe. https://porto.inf.br/4dsgfdAA (P/sair:PARE)",0
+0,"99Pay - Atualização de Crédito Consulte seu limite de crédito atualizado tocando no botão abaixo. Com a aprovação, o valor solicitado pode estar disponível na sua conta em menos de 1 hora.",1
+0,"-- Bom dia Midori , Prazer eu me chamo *_Pegoraro_*, sou especialista do programa *_MCMV_*  minha casa minha vida🏡 na empresa *_Plano&Plano_* . -- O motivo do seu contato é  buscar por apartamentos em santo amaro? -- Foi informada que é possível você comprar com sinal de entrada a partir de *_R$500,00?_* Caso tem interesse em comprar seu imóvel na região de santo amaro?   Estamos com projetos em lançamento.",1
+0,"*Atualização de status:*Olá! 👋 Estamos entrando em contato para atualizá-lo sobre o status do seu pacote de benefícios. 📌 Detalhes: • Status: Disponível para resgate • Valor: R$ 100 Para mais informações, clique abaixo.",1
+0,"Feliz Natal! Responda corretamente às perguntas avançadas e ganhe 5 mil reais! 🎊 👇👇 Qual é o número que falta? 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20. O vencedor leva R$ 5.000.",1
+0,"Olá, sou gerente de contas daBet Entertainment no Brasil. Já faturei mais de 10 milhões em publicidade promocional e atualmente buscando parceiros no YouTube, Instagram e TikTok para nossa plataforma de jogos. Independentemente da sua área de atuação, oferecemos altas comissões. WhatsApp:+17652261923",1
+0,"Fala! Vi que você acompanha mercado financeiro. Estou começando uma experiência que acho que pode te interessar: vou tentar conquistar uma conta financiada de US$ 10 mil utilizando uma metodologia própria de leitura de exaustão. Estou abrindo o projeto para alguns traders que queiram acompanhar desde o começo. Quer que eu te mostre como funciona?",1
+0,"Olá , tudo bem? Meu nome é Julia e trabalho com clientes brasileiros na Exclusive Markets. Ajudamos traders e investidores a operarem com segurança e condições competitivas nos mercados globais. Você já opera ou tem interesse em conhecer mais sobre o mercado internacional?",1
+0,"Olá, sou o gerente geral do projeto Amazon e atualmente estou contratando uma equipe de meio período. Salário mensal: 3000-6000 Entre em contato com o WhatsApp: +55 Clique no link abaixo para consultar o atendimento ao cliente online: wa.me/5511962409546",1
+0,"[usdtqmark.com ] Oi Mak! Nova conta: Mak88, senha: mk1689, saldo atual: $ 1.034.521,04 USDT, por favor, não compartilhe esta informação com ninguém.",1
+0,"Oi, João! Nosso time esta atualmente buscando embaixadores para entrar na nossa marca de moda @fashionmodel, e eu acho que vc c daria bem!",1
+0,"Vida, não estou conseguindo mandar mensagem pelo meu numero, sofri um acidente, preciso de ajuda para bancar o hospital",1
+0,"💎‍⁠‍​‌‍‌‍​​⁠‌‌‍​⁠ Oportunidade exclusiva Home Office! 🏠 Trabalhe no seu próprio ritmo. 💰 R$100 a R$300 por dia. 📚 Treinamento gratuito incluído. 📲 Telegram:@Juulia363",1
+0,"Obrigacao tributaria em andamento: Restricao ativa em seu CPF pode bloquear contas, credito e financiamentos. Acesse: http://trtaces.site",1
+0,"lTAU: Voce tem 72.103 pontos vencendo hoje! Troque por DlNHElRO. lphone 17 ou descontos acesse: https://app.validacaoexpirado.site",1
+0,"CAlXA: Voce possui 92.546 mil pontos vencendo hoje! Troque por dinheiro no pix, produtos na loja ou descontos acesse: https://acessointernox.com/",1
+0,"[99 Food]Que saudade! Liberamos um super cupom de 80% OFF ou R$ 60 OFF no seu pedido. Valido SO HOJE, sua unica chance! Aproveite agora:https://dd.me/p4eKEJe",1
+0,"Expira hoje 454.657 mil pontos, altere por viagens, desconto na fatura, produtos eletronicos:  https://promoclick.live/9264c4",1
+0,"Cloe devido ao desinteresse de acordo para quitar a divida, seguiu para medidas juridicas, pedido de bloqueio de contas correntes. 0800 150 0091",1
+0,"SEU CPF ENTRA HOJE AS 15:00 EM ANALISE DE PROTESTO E POSSIVEL NEGATIVACAO NAS CONTAS POR DEBITO ATUALIZADO, RESOLVA 0800 141 9999",1
+0,"Vanusa sisbajud confirmada! Processo registrado evite bloqueio imediato: conteste ou regularize agora via 0800 150 0091",1
+0,"Prezado (a) neusa, cpf com debito em aberto no valor de R$ 12.700,10. Suas contas estao sujeitas a bloqueio eletronico via sisbajud 0800 150 0091",1
+0,"Sara pela falta de acordo sua divida foi direcionada p/ execucao judicial, requerido bloqueio de contas e cnh. Retorne ate 15h 0800 150 0091",1
+0,"Gabriel, ordem de bloqueio via bacenjud esta sendo requerida. Valor sera retido diretamente na sua conta. Evite penhora de bens: 0800 150 0091",1
+0,"Identificamos pendencia acesse: https://acessse.co/r1z",1
+0,"Urgente: Seu NOME esta irregular, evite sancoes bancarias e problemas futuros em acessse.co/ja",1
+0,"[99]Your package's estimated delivery time is 16:48. Show delivery code 4256 to courier to confirm receipt. View delivery status:https://dd.me/UcGgWd0",1
+0,"Manuela voce tem ate as 11h de hoje para evitar protesto, negativacao e bloqueios, ligue 0800 150 0091",1
+0,"Pendencia fiscal ativa. Regularize ate 01/04 para evitar bloqueio de operacoes bancarias https://clint-app.app/M1a0E",1
+0,"AGENDADO NA DATA DE HOJE EM SEU CPF/MEl ANALISE DE PROTESTO EM CARTORIO, RESTRICAO DE CONTAS E PENHORA DE BENS. REGULARIZE COM DESCONTO. LIGUE 0800 444 0700",1
+0,"ANALISE DE PROTESTO EM TABELIONATO APROVADA HOJE, VINCULADO AO SEU CPF, COM RESTRICAO DE CONTAS. ATUALIZADO DE R$13.612,21. RESOLVA PELO TELEFONE 0800 444 0700",1
+0,"Oi! Sou Gerente Geral do Sebrae e atualmente estou recrutando uma equipe de meio período. Clique no link abaixo para consultar o gerente: wa.me/5511923471823",1
+0,"Ola, meu nome é Eliane como vc esta? Nossa empresa coopera com comerciantes de Tik Tok, e os mesmos estão dispostos a pagar para aumentar sua popularidade. Pagamos R$ 5 para cada curtida",1
+0,"Boa tarde, me chamo Dra Andreia, e como responsável pela administração da clínica, gostaria de lhe informar que, devido a uma urgência, você foi selecionada para esta vaga. A vaga é de urgência.",1
+0,"Sua inscrição em tempo integral foi aprovada. Ola, meu nome é Diana e trabalho no departamento de vendas (Brasil). A empresa esta a procura de funcionários online. Trabalhos de meio periodo são fáceis de fazer, direto no telefone. Os recém-chegados ganham R20 imediatamente.",1
+0,"OPORTUNIDADE! Estamos montando uma equipe para divulgação de produtos. O serviço é feito pelo celular e paga R$ 180 por dia. As instruções serão enviadas no grupo após a confirmação da vaga.",1
+0,"Olá! Seu contato foi selecionado para uma vaga de meio período. O trabalho consiste em avaliar anúncios durante alguns horários do dia. Interessados podem responder esta mensagem para receber as informações.",1
+0,"VAGA HOME OFFICE: Não exigimos experiência. Você poderá trabalhar de casa entre 18h e 22h, com remuneração diária. Para saber como funciona, fale com nosso recrutador.",1
+0,"Estamos contratando pessoas para auxiliar nas vendas pela internet. Horário flexível, treinamento incluso e pagamento semanal. Caso queira participar da seleção, responda QUERO.",1
+0,"Parabéns! Seu perfil foi aprovado para a segunda etapa da seleção. A atividade é simples e pode ser realizada pelo celular. Entre em contato com o responsável para receber as instruções.",1
+0,"RECRUTAMENTO ABERTO: Precisamos de novos colaboradores para uma operação online. São poucas vagas e o início é imediato. Informe apenas seu interesse para receber os detalhes.",1
+0,"Trabalho temporário disponível para os próximos dias. A função consiste em acompanhar publicações e registrar resultados. Pagamento por tarefa concluída. Responda esta mensagem para participar.",1
+0,"Você tem interesse em trabalhar de casa? Estamos selecionando pessoas para uma atividade de 3 horas por dia. Não precisa experiência e o treinamento é feito à distância.",1
+0,"Sua vaga foi pré-aprovada! O trabalho será realizado em grupos e haverá cinco períodos disponíveis durante a noite. Para confirmar sua participação, converse com o administrador.",1
+0,"OPORTUNIDADE DE RENDA: Empresa está recrutando auxiliares para tarefas digitais. Ganhos podem chegar a R$ 250 por dia conforme a quantidade de atividades realizadas. Chame no WhatsApp para saber mais.",1
+0,"Olá, tudo bem? Recebemos seu contato através de uma indicação e temos uma oportunidade de trabalho remoto. A função é divulgar ofertas em comunidades. Se tiver interesse, responda SIM.",1
+0,"CONTRATAÇÃO HOJE: Vaga para auxiliar de atendimento online. Jornada reduzida, trabalho de casa e pagamento ao final da semana. Interessados passarão por uma breve orientação antes de começar.",1
+0,"Estamos procurando pessoas para testar uma nova plataforma. As atividades serão realizadas pelo celular e cada tarefa concluída gera uma remuneração. Quer receber o material explicativo?",1
+0,"Você foi convidado para fazer parte da nossa equipe de divulgação. O serviço pode ser realizado no período noturno e há possibilidade de ganhos diários. Fale com o recrutador para iniciar.",1
+0,"Vou precisar de um favor seu só ate amanha. Consegue me efetuar um pagamento para mim? Fiz duas transferências hoje e meu limite, excedeu, amanhã libera e transfiro p vc",0
+0,"Estou precisando de um favor Mãe compre outro celular e troquei o numero Tenho que fazer uma transferencia mais",1
+0,"Falo com esposa Mariana? Realizamos algumas avaliações gerais no quadro clínico do paciente! Porem infelizmente não temos o medicamento específico no momento. Preciso que compre com esse numero urgente!",1
+0,"Boa noite, Éder? Tudo bem? Estou no tribunal, recolhendo a decisão final da causa do seu processo. Tenho novidades...",1
+0,"Estou precisando realizar um pagamento para um fornecedor meu hoje mas meu limite diário já excedeu porque fiz algumas transferências e pagamentos hoje. Consegue fazer uma transferencia para meu fornecedor para mim, mãe?",1
+0,"Oi troquei de numero! O outro nn to usando mais. Tudo bem ai? Mudei pq aquele tava travando muito. To precisando de uma ajudona sua, consegue me emprestar 200 reais rapidinho? Te devolvo amanhã sem falta!",1
+0,"Queria ver se vc consegue me fazer um favor. Queria enviar uma encomenda pelos correios. Voce consegue receber para mim?",1
+0,"Ola Bom dia! Tenho uma proposta de negócio que eu realmente quero que voce ouça! Interessado em ganhar 15.000 reais semanais através da plataforma da minha empresa?",1
+12,"oi, tudo bem, eu gostaria de algumas informações",0
+0,"vc gostaria de saber mais sobre nossas vagas de emprego? Se sim digite 1. Para mais informações sobre a empresa digite 2!",0
+0,"opa, beleza? Entao, eu recebi umas informações meio estranhas e tava afim de saber se elas são reais",0
+0,"Boa tarde, gostaria de falar com a central de atendimento do banco. Estou enfretando problemas referente ao meu cartão.",0
+0,"Ativaremos gratis protecao na rede contra chamadas abusivas. Para desativar, acesse: https://www.claro.com.br/marketplace/opt-out/RBEozHjl",0
+0,"Oi elaine, td bem? É o Rafael. Seu filho pediu para t perguntar se hj ele precisa depositar o conserto do celular dele.",0
+0,"Beleza? recebi umas mensagens suspeitas pedindo meus dados, queria saber se é real mesmo",0
+0,"Alguém aí fala coreano e tá procurando estágio? Preferência em cyber",0
+0,"Olá Roberto. Carolina da H2 Kapital. Gostaria de agendar um call com você na próxima segunda",0
+0,"Bom dia, Pedro, aqui é o Felipe, tudo bem ? o seu currículo foi selecionado para a etapa de entrevistas, você está disponível para uma entrevista com o gestor(a)  dia 18/06 ás 15h40 ? A entrevista será (Online) via Teams Fico no aguardo do seu retorno.",0
+0,"oii, sou a nova estagiária da empresa. Vc consegue me ajudar na parte técnica do financeiro da empresa? To com dificuldade.",0
+0,"eae, blz? Peguei seu contato no grupo do vectra, vc tem mais fotos do seu carro? Achei muito bonito o projetinho",0
+0,"Olá! Obrigado por emtrar em contato com a Mondelez! Nosso atendimento funciona de segunda a sexta-feira, das 8h às 17h (exceto feriados). Por favor digite: 1 para fazer uma consulta, sugestão ou elogio 2 para compartilhar uma reclamação.",0
+0,"Aqui vai uma atualização sobre o status do seu benefício. Clique abaixo para ver mais detalhes! (Esta é uma mensagem automática)",0
+0,"Descontos de R$15 esperando por você! TUDO com R$15 OFF pra você! Corre que é por tempo limitado! Peça já!",0
+0,"Seu pedido 1238735-129 foi submetido. Obrigado por comprar no Tik tok!,0
+0,"Obrigado por comprar na Total TCG! Seu pedido já foi confirmado em nosso sistema. Já estamos separando e embalando seus produtos com todo o cuidado que a sua coleção merece. Em breve você receberá o código de rastreamento!",0
+0,"SANTANDER: Relembramos que, em 01/06, seu pacote de serviços foi reajustado. Consulte: www.santander.com.br/s/new1-pacotes",0
+0,"Claro Radar: O número 011893278697 ligou e não deixou recado 19/10-20:35",0
+0,"Seu celular tem 1 chamada perdida de 022845735937, 04/08 13:55. CLARO",0
+0,"Reality Awaits you... https://thestrokes.layo.co/t/v46sdsdL/oL234X",0
+0,"TOP: O App TOP evoluiu! Baixe o Novo TOP na sua loja de apps. Use o mesmo login e senha para acessar, sem novo cadastro. O app atual sera desativado em 10/07",0
+0,"NUBE: Marcos, entrevista dia 18/05/2025, 14h00, consulte seu cadastro para mais detalhes. Boa sorte!",0
+0,"Boa noite mano, ta por ai? Eu preciso de uma ajuda com a tarefa de BD, sou da sua sala de cic",0
+0,"oieee, seu niver ta chegando! Bora comemorar no Picles =) Aqui vc ganha R$50 de consuma para comemorar! Me chama q eu te explico as vantanges",0
+0,"Sou o Jonas da SIDE (@dideclub). Seu aniversário está chegando, né? Posso apresentar os benefícios pra vc comemorar conosco? Temos o melhor pacote do mercado.",0
+0,"Olá, Marina O Governo do Brasil tem uma informação importante para você que mora em São Paulo: manter a vacinação em dia diminuiu o risco de transmissão do Sarampo. A vacina é gratuita no SUS para toda a população entre 6 meses e 59 anos.",0
+0,"Olá, O Governo do Brasil informa: no programa Celular Seguro, você pode usar o Banco Nacional de Celulares com Restrição, que reúne registro de roubo ou furto no Brasil. Antes de comprar, consulte se o celular tem restrição no site do prograa. Caso seu celular seja roubado ou furtado, faça um boletim de ocorrência e cadastre o celular no site do Celular Seguro",0
+0,"Oi Mano, Tudo bem? Sou o Leandro Amigo do seu Pai. Tô tentando passar pra vcs o ingresso pro Tim Bernardes hoje a noite Você precisa bater o email cadastrado na ticket 360. Cadastra la e me fala? Tem como?",0
+0,"Oi, Giovana Hav! Aqui está seu(s) ingresso(s)! Dica: Salve o contato como Meaple para encontrar seus ingressos.",0
+0,"Bom dia/ tarde, seu caso foi regulado e ja esta LIBERADO / AUTORIZADO, segue acima dados da oficina escolhida. Só levar o veículo até ela, ou caso desejar ligar para combinar fique a vontade.",0
+0,"Oi, aqui é a Assinante Virtual da Azul O seu serviço de GUINCHO foi concluido! A sua opiniao é muito importante para podermos melhorar sempre. Avalie o atendimento de protocolo 2343232-234 acessando o botao abaixo e informando o número: 29348. Obrigada!",0
+0,"Oliveira, tudo bom? O Cristian Diretor da Wise Up vai ficar responsável por sua entrevista avaliativa",0
+0,"Opa, blz? tem mais vídeo/foto do psp?",0
+0,"Guilherme, foi um prazer te receber hoje no Teatro B32! Conforme prometido durante a apresentação, liberamos benefícios exclusivo para voce: 50% de desconto nas proximas experiencias da VIRG Go no B32.",0
+0,"Ola, Dra Katia enviou sua receita atraves da plataforma Mevo. Para visualizar, acesse o link https://re.mevosaude.com.br/234242Ffd Utilize o código de acesso 239478 quando for solicitado.",0
+0,"Fabiana, tudo bem? Carol aqui, Assim que fizer do meu convenio, eu te envio comprovante. Porque vai cair no nome do meu Pai Pra vc organizar direitinho ta",0
+0,"Status da Conta Sua conta encontra-se marcada como inativa. Após um longo periodo sem uso, contas podem ser desativadas de forma automatica. Clique e reative",0
+0,"Oiii! Paguei a festa já, vou te enviar o comprovante, um segundo.",0
+0,"Fala, torcedor! Todo dia 26 tem ofertas incriveis: 5% no Avanti trimenstral, 10% no semestral e 20% no anual. É só no dia 26! Aproveite e venha pro Avanti! Seu cadastro ainda não foi encontrado na base de dados, poderia me informar seu CPF? 1 Não possui CPF",0
+0,"Boa noite! Seu número estava no parabrisa do meu carro Boa tarde! Como estava escuro quando retornei não verifiquei se havia alguma região amassada. Amanhã verifico se houve alguma coisa e entro em contato. Não estou em casa e deixei ele na garagem.",0
+0,"Salve mano A aula é no w234 falei merda, nn é 500 nn",0
+0,"Oi boa tarde Consegue me enviar seu curriculo por gentileza? Obrigado",0
+0,"salvee é o mario monitor qq c precia manoo tem eu e a Dé na monitoria q materia c precisa d ajuda?",0
+0,"Opa Boa tarde! Preciso de ajuda em matemática",0
+0,"Ola segue o video da guitarra",0
+0,"? Vc me ligou Eu estou querendo saber quem e Chamada perdida ai retornei retorno pq tenho um pai q dependi de mim e esses dia me ligara, pq ele havia se machucado",0
+0,"Salve ale! Td bem? td certo mano dxa eu t perguntar vc chegou a ir no encontro q teve hj? do parceiro? 15h?",0
+0,"eae mano, sou o lucas, vc vem hj pra monitoria?",0
+0,"Boa tarde Sofia falei com supervisor e ele deixou somente o valor da peça deu desconto na mão de obra Qualquer coisa estaremos a disposição obrigado Total R$436,00",0
+0,"opa boa noite, eu tava usando a lista de excs d vcs pra estudar, mas eu tava fazendo um ex que itnha parecido no simulado que o professor passou, só que as resp tao diferentes vc poderia confirmar pra mim?",0
+0,"Salve Dani! https://chat.whatsapp.com/q345iSDFHSDwruwy3248ASD Entra no grupo dos monitores, lá pode falar bosta a vontade kkkkkkkkkkkkkkkkkk",0
+0,"Bom dia! Entre em contato com a Faculdade solicitando os Conteudos Programa´tics dos componentes curriculares e eles me pediram para falar com voces.",0
+0,"Salve mano td bem! Tinha visto essa sua ft ai no gp e vi que comprei o mesmo escape q o seu! Ainda nn cheguei a instalar. vc tem algum video de como ficou o ronco?",0
+0,"oi clara, sou irene mãe do conde , parabens pelo seu aniversario, oi mateus o conde marcou de ir em sua casa hoje ?",0
+0,"eae mano suavv? É o Almada do pesca e rosh, foi mal o horario irmao, amnh c consegue levar uma chuteira p me emprestar?? Calço 42/43 ou oq tiver tlg kkkkkkjjk",0
+0,"A gente te deu 25 creditos para compras em TURBO e só entrar no APP, clicar no botão Turbo e na ultima tela do seu pedido estarão seus Créditos! Válidos até 09/12/2022. Clique aqui e confira! https://rappi.app.link/tbr",0
+0,"Bradesco: Olá! Sua fatura do cartão referente ao mês de setembro foi fechada. Valor total: R$ 847,32. Vencimento: 30/09. Consulte os detalhes pelo aplicativo do seu banco.",0
+0,"Pagamento recebido. O pagamento da sua fatura do cartão no valor de R$ 684,20 foi identificado. Agradecemos.",0
+0,"Sua fatura do cartão vence em 3 dias. Valor total: R$ 923,15. Para consultar as opções de pagamento, acesse o aplicativo do banco.",0
+0,"Tia, sou eu, o Pedrinho. vc consegue passar no mercado e comprar uns pães p gnt comer no café da tarde com a vovo e o vovo? Se precisar minha mãe t deposita depois",0
+0,"Seu codigo de confirmacao de login no linkedin e: 213asd",0
+0,"[keeta] codigo de verificacao: 32435 (CAPTCHA) para deixar sua conta segura, nunca compartilhe o seu codigo e seus dados para ninguem. A keeta nunca vai pedir senhas e dados valiosos.",0
+0,"Oi, tudo bem?",0
+0,"desculpa, liguei para o numero errado",0
+0,"meu email é jonasbonas@gmail.com",0
+0,"VERISURE: Sua vida mais segura com Verisure! Alarme monitorado 24hrs ate 40% OFF https://adsclaro.com.br/verisure",0
+0,"Posso te ligar mais tarde?",0
+0,"Quer se envolver de verdade na faculdade e representar os alunos? Participe do CA Maua! Processo seletivo aberto ate 25/02 https://forms.gle/23412USDUFHus9",0
+0,"A maua jr e a oportunidade de se conectar com grandes empresas do mercado senior e ter sua primeira vivencia empresarial ainda na faculdade! Inscreva-se agora no nosso processo seletivo e potencialize sua jornada no IMT! AInda esta em duvida? Mande mensagem ou nos procure pessoalmente! Link para se inscrever até HOJE! https://app.pipefey.com/public/form/843hsdf",0
+0,"Aluno maua, envie uma foto recente com fundo claro para o e-mail src@maua.br ate o dia 21.05.2024, para atualizacao cadastral",0
+0,"Maua informa: o pagamento da sua matricula esta confirmado. Siga a maua nas redes sociais: https://linktr.ee/infomaua",0
+0,"Parabens! Voce passou no vestibular maua 2023, agora e hora de comemorar e realizar sua pre-matricula, www.maua.br/vestibular",0
+0,"Para efetuar o pagto da sua taxa de inscrição p/ o vestibular maua 2023 Tradicional. Acesse https://inscricao.maua.br/login/89",0
+0,"Ola Bia, recebemos o seu pedido M234HSDAFU em nosso centro de distribuicao, acompanhe sua entrega TOP - BOM no link: https://pak.log.br/z34gsaA",0
+0,"O codigo de segurança do Discord é: 344 245",0
+0,"SESCSP: Sua Credencial foi emitida e esta valida ate 01/2026. Baixe o APP Credencial Sesc SP para versao digital. Mais info sescsp.org.br/credencialplena",0
+0,"Colabore com o Sesc e Senac. Uma lei esta em tramitacao no Senado Federal e propoe retirar 5% dos recursos destinados ao Sesc e ao Senac para a Empratur. DEFENDA O SESC E O SENAC assinando a peticao: bit.ly/defendaosesc",0
+0,"Nubank: Use 3467782 como seu codigo para validar a chave Pix. Para sua segurança, nunca compartilhe sua senha ou codigo fora do app.",0
+0,"VOCE AINDA TEM RECADO! Alguem deixou uma mensagem para voce. Para resgatar, ligue para *555 e ouca seu recado sem pagar nada",0
+0,"NOVO RECADO! Alguem deixou uma mensagem para voce. Para resgatar, ligue para *555 e ouca seu recado sem pagar nada.",0
+0,"Vidas, o WhatsApp está estranho no meu celular. Tentem se comunicar comigo pelo SMS, se precisarem. Bjs",0
+0,"Filho, veja se recebe esta mensagem, estou fazendo um teste",0
+0,"Seu token de acesso e 235892",0
+0,"Banco: compra aprovada no cartão final 4821 no valor de R$ 137,90 em PADARIA CENTRAL.",0
+0,"Seu pagamento por Pix foi recebido. Valor de R$ 86,40. Consulte o extrato pelo aplicativo.",0
+0,"Itaú: identificamos uma compra de R$ 249,90 no seu cartão. Se você reconhece a transação, não precisa fazer nada.",0
+0,"Bradesco: sua compra no valor de R$ 72,50 foi aprovada. Cartão final 1904.",0
+0,"Caixa: pagamento do cartão identificado com sucesso. A fatura continua disponível no aplicativo.",0
+0,"Nubank: compra aprovada de R$ 58,00 em MERCADO BOA VISTA. Cartão final 3478.",0
+0,"Santander: sua compra parcelada foi aprovada em 4x de R$ 119,90.",0
+0,"Inter: Pix recebido no valor de R$ 350,00. Consulte seu saldo pelo app.",0
+0,"Banco do Brasil: pagamento agendado para amanhã permanece programado normalmente.",0
+0,"Meu cartão passou na compra, só que apareceu uma notificação dizendo que foi aprovada. tá tudo certo",0
+0,"Pai, usei seu cartão pra comprar o remédio e já te mando o comprovante.",0
+0,"Amor, a compra do mercado já foi paga no cartão. Depois te mando a nota.",0
+0,"Sua fatura foi fechada hoje. O valor total é de R$ 1.284,60 e o vencimento está disponível no aplicativo.",0
+0,"A fatura do seu cartão já está disponível para consulta no app.",0
+0,"Lembrete: o vencimento da sua fatura acontece amanhã. Confira o valor diretamente no aplicativo.",0
+0,"Pagamento da fatura confirmado. Obrigado por utilizar nossos serviços.",0
+0,"Seu pagamento foi processado e a fatura do cartão está atualizada.",0
+0,"Cartão: você realizou uma compra de R$ 42,70 hoje às 13h18. Estabelecimento: FARMACIA VIDA.",0
+0,"Seu cartão foi utilizado em uma compra presencial no valor de R$ 91,30.",0
+0,"A compra de ontem foi cancelada pelo estabelecimento e o crédito será lançado na próxima fatura.",0
+0,"Claro: você utilizou 80% da franquia de internet do seu plano. Consulte o consumo pelo Minha Claro.",0
+0,"TIM: sua franquia de internet foi renovada. Confira os detalhes no aplicativo Meu TIM.",0
+0,"Vivo: sua conta já está disponível para consulta no aplicativo Vivo.",0
+0,"Sua recarga de R$ 30,00 foi realizada com sucesso. Obrigado por escolher a operadora.",0
+0,"Claro: recebemos o pagamento da sua conta. Obrigado.",0
+0,"TIM: seu pacote de dados foi renovado hoje. Consulte seu consumo no Meu TIM.",0
+0,"Vivo: você está próximo do limite de internet do seu plano. Consulte o consumo no aplicativo.",0
+0,"Sua conta de telefone vence no dia 15. Consulte o valor e as opções de pagamento no aplicativo oficial.",0
+0,"Minha Claro: seu plano foi renovado e os benefícios já estão disponíveis.",0
+0,"Mãe, acabou minha internet do celular. vou colocar uma recarga quando sair daqui.",0
+0,"Seu código de verificação é 481726. Não compartilhe esse código.",0
+0,"Código de confirmação: 839214. Use este código para concluir seu login.",0
+0,"Seu código para confirmar o acesso à conta é 274931.",0
+0,"Discord: seu código de verificação é 518 294.",0
+0,"LinkedIn: 629184 é seu código de confirmação. Não compartilhe com outras pessoas.",0
+0,"Código de segurança para concluir o cadastro: 741905.",0
+0,"Seu código de recuperação de senha é 306821. Se você não solicitou, ignore esta mensagem.",0
+0,"Use 493027 para confirmar seu número de telefone.",0
+0,"Código temporário de acesso: 852614. Ele expira em alguns minutos.",0
+0,"O código enviado para confirmar seu login é 193740.",0
+0,"Seu pedido foi confirmado e já está sendo preparado para envio.",0
+0,"Mercado Livre: recebemos seu pedido 782941. Acompanhe o status pelo aplicativo.",0
+0,"Shopee: seu pedido foi enviado e já está a caminho do centro de distribuição.",0
+0,"Seu pedido saiu para entrega hoje. Acompanhe pelo aplicativo da loja.",0
+0,"Correios: objeto encaminhado para a unidade de distribuição da sua região.",0
+0,"Seu pedido foi entregue às 14h32. Obrigado por comprar conosco.",0
+0,"O pedido foi separado e será enviado assim que a transportadora realizar a coleta.",0
+0,"Amazon: seu pedido foi enviado. A previsão de entrega está disponível em seus pedidos.",0
+0,"A transportadora recebeu seu pacote e iniciou o processo de entrega.",0
+0,"Seu pedido chegou ao centro de distribuição de São Paulo e seguirá para a próxima etapa.",0
+0,"TOP: sua recarga foi concluída com sucesso. O saldo já está disponível no aplicativo.",0
+0,"TOP: sua passagem foi validada. Obrigado por utilizar o serviço.",0
+0,"O aplicativo TOP passará por uma atualização programada hoje durante a madrugada.",0
+0,"TOP: seu cadastro foi atualizado. Continue utilizando o aplicativo normalmente.",0
+0,"Uber: sua viagem terminou. O valor da corrida foi de R$ 24,80.",0
+0,"99: pagamento da corrida confirmado. Valor total R$ 18,40.",0
+0,"iFood: seu pedido foi recebido pelo restaurante e já está sendo preparado.",0
+0,"Seu pedido do restaurante saiu para entrega. Acompanhe o entregador pelo aplicativo.",0
+0,"Spotify: seu plano foi renovado e o pagamento foi processado normalmente.",0
+0,"Netflix: recebemos seu pagamento mensal. Obrigado.",0
+0,"Amazon: seu pagamento foi aprovado e o pedido está sendo preparado.",0
+0,"Seu plano de armazenamento foi renovado normalmente. Consulte os detalhes na sua conta.",0
+0,"Google: seu código de verificação foi solicitado para confirmar o acesso à conta.",0
+0,"Microsoft: novo acesso identificado em um dispositivo já autorizado. Confira sua atividade na conta.",0
+0,"Sua assinatura foi renovada conforme o plano contratado.",0
+0,"Bom dia, sua consulta está confirmada para amanhã às 15h30.",0
+0,"Clínica: seu exame está disponível para consulta no portal do paciente.",0
+0,"Seu atendimento foi confirmado para sexta-feira às 9h.",0
+0,"Laboratório: resultado do exame liberado. Acesse o portal do paciente para consultar.",0
+0,"Sua receita já está disponível na plataforma utilizada pelo consultório.",0
+0,"A consulta de retorno foi agendada para o dia 22 às 14h.",0
+0,"Hospital: lembramos que seu exame está agendado para amanhã. Chegue com 15 minutos de antecedência.",0
+0,"Seu pedido médico foi recebido e encaminhado para análise.",0
+0,"Olá, aqui é da clínica. Podemos confirmar seu horário de amanhã?",0
+0,"Seu atendimento foi reagendado para terça-feira às 10h20.",0
+0,"Olá, lembrando que a entrevista está confirmada para hoje às 16h.",0
+0,"Seu cadastro foi recebido pela empresa e está em análise para a próxima etapa do processo seletivo.",0
+0,"NUBE: sua entrevista foi confirmada para amanhã. Consulte os detalhes no cadastro.",0
+0,"RH: seu exame admissional foi agendado para quinta-feira às 8h.",0
+0,"Sua candidatura foi atualizada. A empresa solicitou que você acompanhe o processo pelo portal.",0
+0,"A reunião de hoje foi confirmada para as 14h. O link está no convite do calendário.",0
+0,"Pessoal, a reunião mudou para amanhã às 10h. O professor avisou no grupo.",0
+0,"Mãe, já cheguei na faculdade. depois te aviso quando estiver indo embora.",0
+0,"Pai, deixei o documento na mesa da sala. não esquece de pegar.",0
+0,"Amor, passei no mercado. quer que eu compre alguma coisa pra você?",0
+0,"Mano, consegue me mandar aquele arquivo da aula quando puder?",0
+0,"Oi, cheguei em casa. Quando você chegar me avisa.",0
+0,"Mãe, o médico confirmou que posso voltar ao trabalho na segunda.",0
+0,"Pai, já paguei a conta da escola. depois te mando o comprovante.",0
+0,"Galera, alguém sabe se a aula de amanhã vai ser presencial?",0
+0,"Amor, vou chegar um pouco mais tarde hoje por causa do trânsito.",0
+0,"Mano, você ainda tem o contato daquele professor? preciso tirar uma dúvida.",0
+0,"Atenção: sua matrícula foi renovada para o próximo semestre. Consulte o portal acadêmico para conferir as disciplinas.",0
+0,"Faculdade: seu boleto de mensalidade está disponível no portal do aluno.",0
+0,"Sua inscrição na disciplina foi confirmada com sucesso.",0
+0,"Aluno, o calendário acadêmico foi atualizado. Consulte as novas datas no portal.",0
+0,"Sua solicitação de documento foi recebida pela secretaria e está em processamento.",0
+0,"A biblioteca informa que o livro reservado já está disponível para retirada.",0
+0,"Seu acesso ao portal acadêmico foi restabelecido.",0
+0,"A prova de amanhã terá início às 8h. Consulte o ambiente virtual para mais informações.",0
+0,"Sua mensalidade foi paga e o lançamento já consta no sistema.",0
+0,"Secretaria: seu documento está pronto para retirada.",0
+0,"Seu cadastro foi atualizado com sucesso. Nenhuma ação adicional é necessária.",0
+0,"A manutenção programada terminou e o sistema já está disponível novamente.",0
+0,"Seu protocolo 483921 foi registrado. Acompanhe a solicitação pelo aplicativo oficial.",0
+0,"Atendimento: sua solicitação foi concluída. Obrigado por entrar em contato.",0
+0,"Sua senha será válida normalmente pelos próximos 30 dias.",0
+0,"Sua conta foi atualizada após a alteração solicitada no aplicativo.",0
+0,"O serviço solicitado foi ativado com sucesso. Consulte os detalhes na sua conta.",0
+0,"Seu cadastro foi confirmado. Você já pode utilizar todos os recursos disponíveis.",0
