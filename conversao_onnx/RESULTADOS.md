@@ -37,6 +37,22 @@ Isso não afeta o PyTorch nem o ONNX FP32, que deram resultados idênticos aos d
 
 A melhora da v1 sobre o PyTorch (5 contra 6 falsos negativos) está dentro do ruído da quantização: uma mensagem vale cerca de 0,4 ponto percentual de recall. Ela não deve ser lida como ganho real do modelo.
 
+### No limiar padrão do app (0,3)
+
+O app Guardião SMS usa **0,3 como limiar padrão de alerta**, ajustável nos Ajustes. Os mesmos modelos, uma mensagem por vez, no mesmo conjunto de teste:
+
+| Modelo | Acurácia | Precisão | Recall | F1 | Falsos negativos | Falsos positivos |
+|---|---|---|---|---|---|---|
+| PyTorch FP32 (referência) | 0,9569 | 0,9303 | 0,9784 | 0,9538 | 5 | 17 |
+| ONNX INT8 dinâmico padrão | 0,9451 | 0,9474 | 0,9310 | 0,9391 | 16 | 12 |
+| **ONNX INT8 v1 per-channel (no app, limiar padrão)** | **0,9608** | 0,9380 | **0,9784** | **0,9578** | **5** | 15 |
+
+Script: `python conversao_onnx/comparar_variantes.py --limiar=0.3`.
+
+O `model.onnx` do app (SHA-256 abaixo), passado como modelo extra, deu exatamente o mesmo resultado da v1 gerada pelos scripts.
+
+**Como interpretar:** na v1, o limiar 0,3 tem o **mesmo recall** do 0,5 (0,9784, 5 golpes perdidos) e **um falso positivo a mais** (15 contra 14). No PyTorch, o 0,3 detecta um golpe a mais que o 0,5. A diferença entre os limiares é de no máximo uma mensagem, porque o modelo dá probabilidades quase sempre próximas de 0 ou de 1.
+
 ### Outras variantes testadas (limiar 0,5, lote = 1)
 
 | Variante | Tamanho | Acurácia | Recall | F1 | FN | FP | ms/mensagem |
@@ -91,6 +107,7 @@ python conversao_onnx/baixar_modelo.py
 python conversao_onnx/exportar_onnx.py
 python conversao_onnx/gerar_variantes.py
 python conversao_onnx/comparar_variantes.py "Modelo antigo do app=<caminho do .onnx antigo>"   # o argumento é opcional
+python conversao_onnx/comparar_variantes.py --limiar=0.3                                     # limiar padrão do app
 python conversao_onnx/avaliar_modelos.py
 python conversao_onnx/comparar_baseline.py
 python conversao_onnx/gerar_referencia_tokenizer.py <saida.tsv>   # referência do teste do tokenizador do app

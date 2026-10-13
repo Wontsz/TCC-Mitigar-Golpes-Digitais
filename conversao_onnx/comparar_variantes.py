@@ -1,11 +1,12 @@
-"""Compara PyTorch e variantes ONNX no teste do dataset_v7 (limiar 0,5) + tempo por mensagem.
+"""Compara PyTorch e variantes ONNX no teste do dataset_v7 (limiar 0,5 por padrão) + tempo por mensagem.
 
 Cada mensagem é inferida SOZINHA (lote = 1), como no app. Isso importa para o
 INT8 dinâmico: a escala de quantização das ativações é calculada sobre o lote
 inteiro, então avaliar em lotes maiores muda levemente os resultados.
 
-Modelos ONNX extras podem ser passados como argumentos NOME=CAMINHO, ex.:
-    python conversao_onnx/comparar_variantes.py "Modelo antigo do app=C:/caminho/model_2026-09-09.onnx"
+Opções:
+    --limiar=0.3     limiar de decisão (o padrão do app é 0,3)
+    NOME=CAMINHO     modelo ONNX extra, ex.: "Modelo antigo do app=C:/caminho/model_2026-09-09.onnx"
 """
 import os
 import platform
@@ -21,7 +22,9 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 from comum import ENTRADAS, FP32, INT8, MAX_LENGTH, MODELO_HF_DIR, VARIANTES, carregar_divisao
 
-LIMIAR = 0.5
+opcoes = [a for a in sys.argv[1:] if a.startswith("--limiar=")]
+extras = [a for a in sys.argv[1:] if not a.startswith("--limiar=")]
+LIMIAR = float(opcoes[-1].split("=", 1)[1]) if opcoes else 0.5
 AQUECIMENTO = 10
 
 _, _, df_test = carregar_divisao()
@@ -72,7 +75,7 @@ modelos = [
     ("v5 FP16", os.path.join(VARIANTES, "v5_fp16.onnx")),
 ]
 modelos = [(nome, c) for nome, c in modelos if c is None or os.path.exists(c)]
-modelos += [tuple(arg.split("=", 1)) for arg in sys.argv[1:]]
+modelos += [tuple(arg.split("=", 1)) for arg in extras]
 
 print(f"teste: {n} mensagens (golpe={int(y.sum())}) | limiar {LIMIAR} | lote=1, max_length={MAX_LENGTH} | "
       f"CPU: {platform.processor() or platform.machine()} ({os.cpu_count()} lógicos) | ort {ort.__version__}")
