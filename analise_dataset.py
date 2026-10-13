@@ -3,7 +3,7 @@ import re
 from collections import Counter
 
 
-df = pd.read_csv('dataset_v5.csv')
+df = pd.read_csv('datasets/dataset_v7.csv')
 
 
 def tokenizar(textos):

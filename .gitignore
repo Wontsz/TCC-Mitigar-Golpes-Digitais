@@ -4,3 +4,11 @@ logs/
 modelo_smishing_final/
 modelo_onnx/model.onnx
 modelo_onnx/model_int8.onnx
+
+# Segredos locais (ex.: GEMINI_API_KEY)
+.env
+
+# Conversão ONNX: modelo baixado e arquivos gerados (grandes, reproduzíveis pelos scripts)
+conversao_onnx/modelo_hf/
+conversao_onnx/saida/
+__pycache__/

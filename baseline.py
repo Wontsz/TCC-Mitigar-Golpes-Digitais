@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
 import pandas as pd
 
-df = pd.read_csv('./dataset_v7.csv')
+df = pd.read_csv('datasets/dataset_v7.csv')
 
 # Mesma divisão do fine_tuning.py (70/15/15), para que o baseline seja
 # avaliado exatamente no mesmo conjunto de teste do BERTimbau.

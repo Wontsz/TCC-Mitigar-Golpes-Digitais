@@ -18,7 +18,7 @@ def gerar_embedding(texto):
     return outputs.last_hidden_state[:, 0, :].numpy()
 
 try:
-    df = pd.read_csv('dataset_v2.csv')                                     
+    df = pd.read_csv('datasets/dataset_v7.csv')                                     
     coluna_mensagem = 'mensagem_chat_sintetica' # ou 'mensagem', 'content', etc.
     
     print(f"Processando {len(df)} mensagens com BERTimbau...")

@@ -4,7 +4,16 @@ import time
 import os
 
 # CONFIG API
-CHAVE_API = "AIzaSyCHUUd1KUyh3ATCdAZgXl8MgWus0-Y30uY" 
+# A chave NÃO fica no código: defina a variável de ambiente GEMINI_API_KEY
+# (PowerShell: $env:GEMINI_API_KEY = "sua-chave"). Não versione a chave (.env está no .gitignore).
+try:
+    CHAVE_API = os.environ["GEMINI_API_KEY"]
+except KeyError:
+    raise SystemExit(
+        "Erro: a variável de ambiente GEMINI_API_KEY não está definida.\n"
+        "Defina-a antes de rodar este script, por exemplo no PowerShell:\n"
+        '    $env:GEMINI_API_KEY = "sua-chave"'
+    ) from None
 client = genai.Client(api_key=CHAVE_API)
 MODELO_ESCOLHIDO = 'gemini-2.5-flash'
 

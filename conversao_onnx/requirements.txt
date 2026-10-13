@@ -1,0 +1,15 @@
+# Versões usadas na conversão/avaliação (Python 3.13, Windows, CPU).
+# torch versão CPU: pip install -r conversao_onnx/requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+transformers==5.19.0
+tokenizers==0.23.3
+huggingface_hub==2.2.0
+safetensors==0.8.0
+onnx==1.23.2
+onnxruntime==1.31.0
+onnxconverter-common==1.16.0
+protobuf==7.36.2
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.0.6
+scikit-learn==1.9.1
