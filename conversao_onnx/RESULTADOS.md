@@ -96,6 +96,13 @@ Os hiperparâmetros são os do `baseline.py`: `TfidfVectorizer(max_features=500,
 
 - Os dois conjuntos de teste **são diferentes**: só 269 das 510 mensagens são comuns. É o que o `checar_split.py` mostra ("indices iguais: False").
 - Desde o commit `c3edfb8`, o `baseline.py` usa a divisão (a). Por isso o número dele, 0,8843, pode ser comparado diretamente com o do BERTimbau: 0,9569 em PyTorch e 0,9627 na v1 do app, no mesmo teste e no limiar 0,5.
+- Os números da tabela usam o `predict()`, que decide no limiar 0,5. **Esse é o ponto de decisão padrão do baseline e o número reportado (acurácia de 0,8843).** Na comparação com o app, cada modelo fica no seu limiar padrão: o BERTimbau em 0,3 e o baseline em 0,5.
+
+**Observação: o baseline no limiar 0,3 (não usado na comparação).** Aplicando o limiar 0,3 sobre o `predict_proba` do mesmo modelo, na divisão (a), o resultado é:
+- acurácia 0,8275, precisão 0,7400, recall 0,9569 e F1 0,8346;
+- 10 falsos negativos e **78 falsos positivos**.
+
+Esse número não entra na comparação porque o limiar 0,3 foi calibrado para o BERTimbau. O BERTimbau dá probabilidades quase sempre perto de 0 ou de 1, então nele a mudança de limiar altera no máximo uma mensagem. A regressão logística, ao contrário, tem probabilidades mais espalhadas. Aplicar nela o limiar de outro modelo troca precisão por recall de forma artificial: os falsos positivos passam de 27 para 78. Isso distorceria a comparação.
 
 ## Como reproduzir
 
